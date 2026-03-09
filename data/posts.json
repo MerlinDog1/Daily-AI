@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-03-09",
+    "title": "Kickoff Edition",
+    "summary": "Project launched. Automated feed pipeline is ready; web-wide search pending Brave API key.",
+    "tags": ["us-labs","china","open-source","github","openclaw","local-ai"],
+    "sections": [
+      {"name":"Trending AI GitHub Repos","items":[
+        {"headline":"Significant-Gravitas/AutoGPT","url":"https://github.com/Significant-Gravitas/AutoGPT","note":"Still one of the most watched agent ecosystems."},
+        {"headline":"OpenHands/OpenHands","url":"https://github.com/OpenHands/OpenHands","note":"AI-driven software development assistant momentum continues."},
+        {"headline":"FlowiseAI/Flowise","url":"https://github.com/FlowiseAI/Flowise","note":"Visual agent workflows remain strong for rapid prototyping."}
+      ]},
+      {"name":"OpenClaw Developments","items":[
+        {"headline":"Workflow scaffolding completed","url":"https://github.com/openclaw/openclaw","note":"Memory + projects + delegation model formalized in workspace."},
+        {"headline":"Skill inventory indexed","url":"https://docs.openclaw.ai","note":"Skills/tools mapped for faster task routing and subagent orchestration."}
+      ]}
+    ],
+    "implementation": "Use OpenHands/Flowise patterns to accelerate prototyping; Daily AI becomes our strategic radar for CuZn and future projects."
+  }
+]
