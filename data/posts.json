@@ -1,33 +1,98 @@
 [
   {
     "date": "2026-03-10",
-    "title": "Automated Daily Brief",
-    "summary": "Auto-generated entry. For full lab/news coverage configure BRAVE_API_KEY.",
-    "tags": [
-      "github",
-      "open-source",
-      "openclaw"
-    ],
+    "title": "Production Hardening + Multi-Agent Ops",
+    "summary": "Today’s cycle points to enterprise hardening (security/evals), multi-agent coding workflows, and continued acceleration across US + China AI ecosystems.",
+    "tags": ["us-labs", "china", "open-source", "github", "openclaw", "local-ai"],
     "sections": [
       {
-        "name": "Trending AI GitHub Repos",
-        "items": []
+        "name": "US Labs & Platforms",
+        "items": [
+          {
+            "headline": "OpenAI News Hub",
+            "url": "https://openai.com/news/",
+            "note": "Official source for releases and platform updates; use as primary verification point before secondary media.",
+            "badges": ["US", "official"]
+          },
+          {
+            "headline": "OpenAI funding round coverage (CNBC)",
+            "url": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+            "note": "Signals continued capex pressure and infrastructure race among frontier labs.",
+            "badges": ["US", "capital"]
+          },
+          {
+            "headline": "Anthropic newsroom",
+            "url": "https://www.anthropic.com/news",
+            "note": "Track Claude releases, policy positions, and enterprise/government posture directly from source.",
+            "badges": ["US", "official"]
+          }
+        ]
+      },
+      {
+        "name": "China AI Developments",
+        "items": [
+          {
+            "headline": "Reuters: low-cost Chinese model wave",
+            "url": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/",
+            "note": "Useful macro signal: pricing pressure and capability uplift likely to continue through 2026.",
+            "badges": ["China", "models"]
+          },
+          {
+            "headline": "Bloomberg: DeepSeek API access update",
+            "url": "https://www.bloomberg.com/news/articles/2025-02-25/deepseek-reopens-access-to-ai-model-as-chinese-rivalry-escalates",
+            "note": "API availability and pricing shifts matter for fallback-provider strategy.",
+            "badges": ["China", "API"]
+          }
+        ]
+      },
+      {
+        "name": "Open Source + GitHub Momentum",
+        "items": [
+          {
+            "headline": "AutoGPT",
+            "url": "https://github.com/Significant-Gravitas/AutoGPT",
+            "note": "Still a benchmark ecosystem for autonomous agent UX and packaging.",
+            "badges": ["open-source", "agents"]
+          },
+          {
+            "headline": "OpenHands",
+            "url": "https://github.com/OpenHands/OpenHands",
+            "note": "High-signal reference for AI coding-agent ergonomics and architecture.",
+            "badges": ["open-source", "devtools"]
+          },
+          {
+            "headline": "Flowise",
+            "url": "https://github.com/FlowiseAI/Flowise",
+            "note": "Visual orchestration remains strong for fast agent workflow prototyping.",
+            "badges": ["open-source", "workflows"]
+          }
+        ]
+      },
+      {
+        "name": "OpenClaw Workflow Notes",
+        "items": [
+          {
+            "headline": "OpenClaw docs",
+            "url": "https://docs.openclaw.ai",
+            "note": "Daily-AI pipeline now supports richer source ingestion; Perplexity key stored as optional expansion lane.",
+            "badges": ["openclaw", "ops"]
+          },
+          {
+            "headline": "OpenClaw GitHub",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "Track upstream capability changes and add relevant updates to daily brief structure.",
+            "badges": ["openclaw", "source"]
+          }
+        ]
       }
     ],
-    "implementation": "Pick one development and test practical use in active projects."
+    "implementation": "For our stack: add a Daily-AI quality gate that requires at least one official source per major claim, and pilot a weekly 'apply now' lane where one trend is converted into an actionable experiment in our active projects."
   },
   {
     "date": "2026-03-09",
     "title": "Kickoff Edition",
-    "summary": "Project launched. Automated feed pipeline is ready; web-wide search pending Brave API key.",
-    "tags": [
-      "us-labs",
-      "china",
-      "open-source",
-      "github",
-      "openclaw",
-      "local-ai"
-    ],
+    "summary": "Project launched. Automated feed pipeline is ready; web-wide search is now configured and can be expanded in next refresh.",
+    "tags": ["us-labs", "china", "open-source", "github", "openclaw", "local-ai"],
     "sections": [
       {
         "name": "Trending AI GitHub Repos",
@@ -46,21 +111,6 @@
             "headline": "FlowiseAI/Flowise",
             "url": "https://github.com/FlowiseAI/Flowise",
             "note": "Visual agent workflows remain strong for rapid prototyping."
-          }
-        ]
-      },
-      {
-        "name": "OpenClaw Developments",
-        "items": [
-          {
-            "headline": "Workflow scaffolding completed",
-            "url": "https://github.com/openclaw/openclaw",
-            "note": "Memory + projects + delegation model formalized in workspace."
-          },
-          {
-            "headline": "Skill inventory indexed",
-            "url": "https://docs.openclaw.ai",
-            "note": "Skills/tools mapped for faster task routing and subagent orchestration."
           }
         ]
       }

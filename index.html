@@ -1,3 +1,57 @@
-<!doctype html><html lang='en'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width, initial-scale=1.0'/><title>Daily AI</title><style>body{font-family:Inter,system-ui,Arial;background:#0f1220;color:#e8ebff;margin:0}.wrap{max-width:980px;margin:0 auto;padding:24px}.hero{display:flex;justify-content:space-between;align-items:end;gap:12px}.tag{display:inline-block;padding:4px 10px;border-radius:999px;background:#232947;color:#aab4ff;margin:4px;font-size:12px;cursor:pointer}.tag.active{background:#5b6bff;color:#fff}.card{background:#171c33;border:1px solid #2a315c;border-radius:14px;padding:16px;margin:14px 0}a{color:#9bd0ff}h1,h2,h3{margin:8px 0}.meta{color:#98a2d6;font-size:13px}</style></head><body><div class='wrap'><div class='hero'><div><h1>Daily AI</h1><div class='meta'>Fresh AI briefings, newest first. Updated daily at 05:00 UTC.</div></div></div><div id='tags'></div><div id='feed'></div></div><script>
-let active='all';fetch('data/posts.json').then(r=>r.json()).then(data=>{const tags=[...new Set(data.flatMap(d=>d.tags))];const t=document.getElementById('tags');t.innerHTML='<span class="tag active" data-tag="all">all</span>'+tags.map(x=>`<span class="tag" data-tag="${x}">${x}</span>`).join('');function render(){const items=active==='all'?data:data.filter(d=>d.tags.includes(active));document.getElementById('feed').innerHTML=items.map(day=>`<article class="card"><h2>${day.date} — ${day.title}</h2><div class="meta">${day.summary}</div>${day.sections.map(s=>`<h3>${s.name}</h3><ul>${s.items.map(i=>`<li><a href="${i.url}" target="_blank">${i.headline}</a> — ${i.note}</li>`).join('')}</ul>`).join('')}<h3>How we can use this</h3><p>${day.implementation}</p></article>`).join('');document.querySelectorAll('.tag').forEach(el=>el.classList.toggle('active',el.dataset.tag===active));}t.onclick=(e)=>{if(e.target.dataset.tag){active=e.target.dataset.tag;render();}};render();});
-</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily AI</title>
+  <style>
+    :root{--bg:#0a0a0f;--card:#12131c;--text:#e8ecff;--muted:#a9b2d1;--cyan:#00d4ff;--violet:#7c3aed;--line:#24263a}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 Inter,Segoe UI,Arial,sans-serif}
+    .wrap{max-width:1040px;margin:0 auto;padding:28px 18px 48px}
+    h1,h2,h3{margin:0 0 8px} h1{font-size:34px;line-height:1.15}
+    .grad{background:linear-gradient(90deg,var(--cyan),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .sub{color:var(--muted);margin-top:6px}
+    .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+    .tag{display:inline-block;border:1px solid #2a2d44;border-radius:999px;padding:4px 10px;font-size:12px;color:#cfd7ff;background:#171a29;cursor:pointer}
+    .tag.active{background:#2c3ea9;color:#fff;border-color:#4158d0}
+    .post{background:linear-gradient(180deg,#141624,#10111a);border:1px solid var(--line);border-radius:14px;padding:16px;margin:14px 0}
+    .item{padding:12px;border:1px solid var(--line);border-radius:12px;background:#0f1119;margin:10px 0}
+    .badge{display:inline-block;border:1px solid #2a2d44;border-radius:999px;padding:2px 9px;margin-right:6px;font-size:12px;color:#cfd7ff;background:#171a29}
+    a{color:#8be8ff;text-decoration:none} a:hover{text-decoration:underline}
+    ul{margin:8px 0 0 18px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1><span class="grad">Daily AI</span></h1>
+    <p class="sub">Fresh AI developments every day at 05:00 UTC · newest brief first · GitHub Pages auto-published.</p>
+    <div id="tags" class="toolbar"></div>
+    <div id="feed"></div>
+  </div>
+
+<script>
+let active='all';
+fetch('data/posts.json').then(r=>r.json()).then(posts=>{
+  const allTags=[...new Set(posts.flatMap(p=>p.tags||[]))];
+  const tags=document.getElementById('tags');
+  tags.innerHTML='<span class="tag active" data-tag="all">all</span>'+allTags.map(t=>`<span class="tag" data-tag="${t}">${t}</span>`).join('');
+
+  function render(){
+    const items=active==='all'?posts:posts.filter(p=>(p.tags||[]).includes(active));
+    document.getElementById('feed').innerHTML=items.map(p=>`
+      <article class="post">
+        <h2>${p.date} — ${p.title}</h2>
+        <p class="sub">${p.summary}</p>
+        ${p.sections.map(s=>`<h3 style="margin-top:12px">${s.name}</h3>${(s.items||[]).map(i=>`<div class="item">${(i.badges||[]).map(b=>`<span class="badge">${b}</span>`).join('')}<strong><a href="${i.url}" target="_blank" rel="noopener">${i.headline}</a></strong><br/>${i.note}</div>`).join('')}`).join('')}
+        <h3 style="margin-top:14px">How we can use this</h3>
+        <p>${p.implementation}</p>
+      </article>`).join('');
+    document.querySelectorAll('.tag').forEach(el=>el.classList.toggle('active',el.dataset.tag===active));
+  }
+
+  tags.onclick=(e)=>{ if(e.target.dataset.tag){ active=e.target.dataset.tag; render(); }};
+  render();
+});
+</script>
+</body>
+</html>
