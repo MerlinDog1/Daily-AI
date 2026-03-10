@@ -19,13 +19,31 @@ for line in pathlib.Path(os.environ['TMPFILE']).read_text().splitlines():
     if not line: continue
     try: repos.append(json.loads(line))
     except: pass
-entry={"date":today,"title":"Automated Daily Brief","summary":"Auto-generated entry. For full lab/news coverage configure BRAVE_API_KEY.","tags":["github","open-source","openclaw"],"sections":[{"name":"Trending AI GitHub Repos","items":repos[:5]}],"implementation":"Pick one development and test practical use in active projects."}
+entry={
+  "date":today,
+  "title":"Automated Daily Brief",
+  "summary":"Daily AI digest generated in baseline long-form format. Include US labs, China AI, Open Source, Local vs API tools, and practical implementation notes.",
+  "tags":["us-labs","china","open-source","github","openclaw","local-ai","api"],
+  "stats":[],
+  "sections":[
+    {"name":"Breaking AI News","items":[]},
+    {"name":"Open Source AI","items":[]},
+    {"name":"Hot GitHub (Fresh Picks)","items":repos[:6]},
+    {"name":"Run It Locally 🏠 LOCAL","items":[]},
+    {"name":"API Tools ☁️ API","items":[]}
+  ],
+  "implementation":"Add 3 concrete experiments based on today’s developments.",
+  "sources":[
+    {"name":"Hacker News","url":"https://news.ycombinator.com/"},
+    {"name":"GitHub Trending","url":"https://github.com/trending?since=daily"}
+  ]
+}
 data.insert(0,entry)
 p.write_text(json.dumps(data,indent=2))
 PY
 
-if ! git diff --quiet -- data/posts.json; then
-  git add data/posts.json
+if ! git diff --quiet; then
+  git add -A
   git commit -m "daily update: ${TODAY}" || true
   git push origin main
 fi

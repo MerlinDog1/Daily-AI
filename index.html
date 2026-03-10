@@ -15,6 +15,8 @@
     .tag{display:inline-block;border:1px solid #2a2d44;border-radius:999px;padding:4px 10px;font-size:12px;color:#cfd7ff;background:#171a29;cursor:pointer}
     .tag.active{background:#2c3ea9;color:#fff;border-color:#4158d0}
     .post{background:linear-gradient(180deg,#141624,#10111a);border:1px solid var(--line);border-radius:14px;padding:16px;margin:14px 0}
+    .grid{display:grid;gap:12px}.g3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+    .card{background:#0f1119;border:1px solid var(--line);border-radius:12px;padding:12px}
     .item{padding:12px;border:1px solid var(--line);border-radius:12px;background:#0f1119;margin:10px 0}
     .badge{display:inline-block;border:1px solid #2a2d44;border-radius:999px;padding:2px 9px;margin-right:6px;font-size:12px;color:#cfd7ff;background:#171a29}
     a{color:#8be8ff;text-decoration:none} a:hover{text-decoration:underline}
@@ -42,9 +44,11 @@ fetch('data/posts.json').then(r=>r.json()).then(posts=>{
       <article class="post">
         <h2>${p.date} — ${p.title}</h2>
         <p class="sub">${p.summary}</p>
+        ${(p.stats&&p.stats.length)?`<h3 style="margin-top:12px">Stats Grid</h3><div class="grid g3">${p.stats.map(s=>`<div class="card"><strong>${s.value}</strong><br/>${s.text}</div>`).join('')}</div>`:''}
         ${p.sections.map(s=>`<h3 style="margin-top:12px">${s.name}</h3>${(s.items||[]).map(i=>`<div class="item">${(i.badges||[]).map(b=>`<span class="badge">${b}</span>`).join('')}<strong><a href="${i.url}" target="_blank" rel="noopener">${i.headline}</a></strong><br/>${i.note}</div>`).join('')}`).join('')}
         <h3 style="margin-top:14px">How we can use this</h3>
         <p>${p.implementation}</p>
+        ${(p.sources&&p.sources.length)?`<p class="sub">Sources: ${p.sources.map(s=>`<a href="${s.url}" target="_blank">${s.name}</a>`).join(' · ')}</p>`:''}
       </article>`).join('');
     document.querySelectorAll('.tag').forEach(el=>el.classList.toggle('active',el.dataset.tag===active));
   }

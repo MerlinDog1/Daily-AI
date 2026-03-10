@@ -1,98 +1,167 @@
 [
   {
     "date": "2026-03-10",
-    "title": "Production Hardening + Multi-Agent Ops",
-    "summary": "Today’s cycle points to enterprise hardening (security/evals), multi-agent coding workflows, and continued acceleration across US + China AI ecosystems.",
-    "tags": ["us-labs", "china", "open-source", "github", "openclaw", "local-ai"],
+    "title": "AI News Digest (Baseline Format)",
+    "summary": "Today’s AI cycle is all about production hardening: security buys, multi-agent code review, robotics-first edge hardware, and the growing split between local-first and API-first tooling.",
+    "tags": ["us-labs", "china", "open-source", "github", "openclaw", "local-ai", "api"],
+    "stats": [
+      {
+        "value": "12,632",
+        "text": "weekly stars on ruvnet/RuView, signaling demand for sensor-based AI beyond camera pipelines."
+      },
+      {
+        "value": "40 TOPS",
+        "text": "NPU in Qualcomm’s new Ventuno Q board, pushing embedded AI robotics into maker and industrial workflows."
+      },
+      {
+        "value": "25% of Fortune 500",
+        "text": "already use Promptfoo, the evaluation/security tooling OpenAI is acquiring to tighten enterprise AI app safety."
+      }
+    ],
     "sections": [
       {
-        "name": "US Labs & Platforms",
+        "name": "Breaking AI News",
         "items": [
           {
-            "headline": "OpenAI News Hub",
-            "url": "https://openai.com/news/",
-            "note": "Official source for releases and platform updates; use as primary verification point before secondary media.",
-            "badges": ["US", "official"]
+            "headline": "OpenAI to acquire Promptfoo",
+            "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
+            "note": "OpenAI’s move suggests eval and security tooling is becoming core product infrastructure, not an add-on.",
+            "badges": ["🆕 NEW", "🔥 HOT", "US"]
           },
           {
-            "headline": "OpenAI funding round coverage (CNBC)",
-            "url": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
-            "note": "Signals continued capex pressure and infrastructure race among frontier labs.",
-            "badges": ["US", "capital"]
+            "headline": "Anthropic ships multi-agent Code Review in Claude Code preview",
+            "url": "https://www.theverge.com/ai-artificial-intelligence",
+            "note": "A strong signal that AI coding assistants are moving from generation into quality gates and review automation.",
+            "badges": ["🆕 NEW", "🔥 HOT", "US"]
           },
           {
-            "headline": "Anthropic newsroom",
-            "url": "https://www.anthropic.com/news",
-            "note": "Track Claude releases, policy positions, and enterprise/government posture directly from source.",
-            "badges": ["US", "official"]
+            "headline": "Qualcomm + Arduino launch Ventuno Q for AI robotics",
+            "url": "https://www.theverge.com/ai-artificial-intelligence",
+            "note": "Ventuno Q combines 16GB RAM with a 40 TOPS NPU to target autonomous robotics and sensor-driven edge workloads.",
+            "badges": ["🆕 NEW", "🏠 LOCAL"]
+          },
+          {
+            "headline": "Microsoft tests Claude Cowork integration in Copilot Frontier",
+            "url": "https://www.theverge.com/ai-artificial-intelligence",
+            "note": "Enterprise copilots may increasingly become orchestration shells over multiple model providers.",
+            "badges": ["🆕 NEW", "☁️ API"]
+          },
+          {
+            "headline": "Kapwing publishes artist royalty learnings for AI-generated art",
+            "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
+            "note": "One of the cleaner public case studies on compensation models for generative media businesses.",
+            "badges": ["🆕 NEW", "Creator"]
           }
         ]
       },
       {
-        "name": "China AI Developments",
+        "name": "Open Source AI",
         "items": [
           {
-            "headline": "Reuters: low-cost Chinese model wave",
-            "url": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/",
-            "note": "Useful macro signal: pricing pressure and capability uplift likely to continue through 2026.",
-            "badges": ["China", "models"]
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "A swarm-intelligence engine for broad prediction workflows and alternative AI experimentation."
           },
           {
-            "headline": "Bloomberg: DeepSeek API access update",
-            "url": "https://www.bloomberg.com/news/articles/2025-02-25/deepseek-reopens-access-to-ai-model-as-chinese-rivalry-escalates",
-            "note": "API availability and pricing shifts matter for fallback-provider strategy.",
-            "badges": ["China", "API"]
+            "headline": "DenchHQ/DenchClaw",
+            "url": "https://github.com/DenchHQ/DenchClaw",
+            "note": "A local CRM layer built on OpenClaw, useful reference for verticalized autonomous workflows."
+          },
+          {
+            "headline": "strands-agents/samples",
+            "url": "https://github.com/strands-agents/samples",
+            "note": "Composable agent patterns and workflow examples for orchestration benchmarking."
           }
         ]
       },
       {
-        "name": "Open Source + GitHub Momentum",
+        "name": "Hot GitHub (Fresh Picks)",
         "items": [
           {
-            "headline": "AutoGPT",
-            "url": "https://github.com/Significant-Gravitas/AutoGPT",
-            "note": "Still a benchmark ecosystem for autonomous agent UX and packaging.",
-            "badges": ["open-source", "agents"]
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "+5,022/week — strong momentum for non-transformer inference patterns."
           },
           {
-            "headline": "OpenHands",
-            "url": "https://github.com/OpenHands/OpenHands",
-            "note": "High-signal reference for AI coding-agent ergonomics and architecture.",
-            "badges": ["open-source", "devtools"]
+            "headline": "virattt/ai-hedge-fund",
+            "url": "https://github.com/virattt/ai-hedge-fund",
+            "note": "Agentic finance experimentation repo with simulation pipeline ideas."
           },
           {
-            "headline": "Flowise",
-            "url": "https://github.com/FlowiseAI/Flowise",
-            "note": "Visual orchestration remains strong for fast agent workflow prototyping.",
-            "badges": ["open-source", "workflows"]
+            "headline": "strands-agents/samples",
+            "url": "https://github.com/strands-agents/samples",
+            "note": "Practical examples for multi-agent execution and handoffs."
+          },
+          {
+            "headline": "exo-explore/exo",
+            "url": "https://github.com/exo-explore/exo",
+            "note": "Distributed/local compute experimentation for running AI workloads across devices."
+          },
+          {
+            "headline": "Blaizzy/mlx-audio",
+            "url": "https://github.com/Blaizzy/mlx-audio",
+            "note": "Apple-silicon focused audio AI tooling for local speech/music workflows."
+          },
+          {
+            "headline": "alibaba/page-agent",
+            "url": "https://github.com/alibaba/page-agent",
+            "note": "Agent framework focused on web/page action patterns with automation potential."
           }
         ]
       },
       {
-        "name": "OpenClaw Workflow Notes",
+        "name": "Run It Locally 🏠 LOCAL",
         "items": [
           {
-            "headline": "OpenClaw docs",
-            "url": "https://docs.openclaw.ai",
-            "note": "Daily-AI pipeline now supports richer source ingestion; Perplexity key stored as optional expansion lane.",
-            "badges": ["openclaw", "ops"]
+            "headline": "Ventuno Q class edge builds",
+            "url": "https://www.theverge.com/ai-artificial-intelligence",
+            "note": "Prototype sensor+actuation loops where inference stays on-device for latency/privacy."
           },
           {
-            "headline": "OpenClaw GitHub",
-            "url": "https://github.com/openclaw/openclaw",
-            "note": "Track upstream capability changes and add relevant updates to daily brief structure.",
-            "badges": ["openclaw", "source"]
+            "headline": "MiroFish + local data",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "Test swarm-based predictors against operational metrics before transformer-heavy stacks."
+          },
+          {
+            "headline": "DenchClaw-style vertical agents",
+            "url": "https://github.com/DenchHQ/DenchClaw",
+            "note": "Build domain-specific assistants directly on existing OpenClaw workflows."
+          }
+        ]
+      },
+      {
+        "name": "API Tools ☁️ API",
+        "items": [
+          {
+            "headline": "Promptfoo ecosystem",
+            "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
+            "note": "Eval/security now looks like procurement-grade infrastructure."
+          },
+          {
+            "headline": "Copilot Frontier + Cowork integration",
+            "url": "https://www.theverge.com/ai-artificial-intelligence",
+            "note": "Likely template for enterprise multi-provider orchestration."
+          },
+          {
+            "headline": "Claude Code Review preview",
+            "url": "https://www.theverge.com/ai-artificial-intelligence",
+            "note": "Early signal of review-as-a-service for CI/CD pipelines."
           }
         ]
       }
     ],
-    "implementation": "For our stack: add a Daily-AI quality gate that requires at least one official source per major claim, and pilot a weekly 'apply now' lane where one trend is converted into an actionable experiment in our active projects."
+    "implementation": "1) Pilot Promptfoo-style security gate in one repo with explicit fail conditions for prompt-injection, leakage, and unsafe tool calls. 2) Run side-by-side benchmark (human-only vs multi-agent code review) on a recent PR batch and measure defect yield/time. 3) Prototype one local edge agent loop (sensor/event → local model → action) to validate latency and reliability assumptions before scaling.",
+    "sources": [
+      {"name": "Hacker News", "url": "https://news.ycombinator.com/"},
+      {"name": "The Verge AI", "url": "https://www.theverge.com/ai-artificial-intelligence"},
+      {"name": "GitHub Trending", "url": "https://github.com/trending?since=weekly"}
+    ]
   },
   {
     "date": "2026-03-09",
     "title": "Kickoff Edition",
-    "summary": "Project launched. Automated feed pipeline is ready; web-wide search is now configured and can be expanded in next refresh.",
-    "tags": ["us-labs", "china", "open-source", "github", "openclaw", "local-ai"],
+    "summary": "Project launched. Automated feed pipeline initialized.",
+    "tags": ["open-source", "github", "openclaw"],
     "sections": [
       {
         "name": "Trending AI GitHub Repos",
@@ -100,21 +169,21 @@
           {
             "headline": "Significant-Gravitas/AutoGPT",
             "url": "https://github.com/Significant-Gravitas/AutoGPT",
-            "note": "Still one of the most watched agent ecosystems."
+            "note": "Watched agent ecosystem."
           },
           {
             "headline": "OpenHands/OpenHands",
             "url": "https://github.com/OpenHands/OpenHands",
-            "note": "AI-driven software development assistant momentum continues."
+            "note": "AI-driven development assistant momentum."
           },
           {
             "headline": "FlowiseAI/Flowise",
             "url": "https://github.com/FlowiseAI/Flowise",
-            "note": "Visual agent workflows remain strong for rapid prototyping."
+            "note": "Visual workflow builder for agents."
           }
         ]
       }
     ],
-    "implementation": "Use OpenHands/Flowise patterns to accelerate prototyping; Daily AI becomes our strategic radar for CuZn and future projects."
+    "implementation": "Use Daily AI as the strategic radar and convert one insight per day into a practical project action."
   }
 ]
