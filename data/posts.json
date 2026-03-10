@@ -1,8 +1,65 @@
 [
   {
+    "date": "2026-03-10 PM",
+    "title": "Enhanced with Playwright Deep Scraping",
+    "summary": "First run with full article extraction. BBC lawsuit story pulled with actual quotes. HN top stories scraped with live links. Deep content now achievable.",
+    "tags": ["us-labs", "open-source", "github", "playwright", "enhanced"],
+    "stats": [],
+    "sections": [
+      {
+        "name": "Live from the Web (Scraped)",
+        "items": [
+          {
+            "headline": "Anthropic sues US government for calling it a risk",
+            "url": "https://www.bbc.com/news/articles/cq571w5vllxo",
+            "note": "AI firm Anthropic filed a first-of-its-kind lawsuit against the US government over 'supply chain risk' label. CEO Dario Amodei publicly clashed with Defence Secretary Pete Hegseth over the company's refusal to allow the military unfettered use of its AI tools.",
+            "badges": ["US", "Legal", "Anthropic"]
+          },
+          {
+            "headline": "Anthropic launches code review tool for AI-generated code",
+            "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
+            "note": "Claude Code has dramatically increased code output, creating PR review bottlenecks. Anthropic's new Code Review tool targets this directly.",
+            "badges": ["US", "Tools", "Anthropic"]
+          }
+        ]
+      },
+      {
+        "name": "Hacker News Live (Scraped)",
+        "items": [
+          {
+            "headline": "I put my whole life into a single database",
+            "url": "https://howisfelix.today/",
+            "note": "Personal data engineering project going viral on HN"
+          },
+          {
+            "headline": "Redox OS adopts Certificate of Origin + strict no-LLM policy",
+            "url": "https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md",
+            "note": "Interesting stance on LLM contributions in OS development"
+          },
+          {
+            "headline": "Yann LeCun's AI startup raises $1B in Europe's largest ever seed",
+            "url": "https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1",
+            "note": "Major European AI funding milestone"
+          },
+          {
+            "headline": "Two Years of Emacs Solo",
+            "url": "https://www.rahuljuliato.com/posts/emacs-solo-two-years",
+            "note": "Personal editor journey going strong"
+          }
+        ]
+      }
+    ],
+    "implementation": "Playwright scraping working. Next: extract full article text for key stories to give actual context in digest, not just headlines.",
+    "sources": [
+      {"name": "BBC", "url": "https://www.bbc.com"},
+      {"name": "Hacker News", "url": "https://news.ycombinator.com"},
+      {"name": "TechCrunch", "url": "https://techcrunch.com"}
+    ]
+  },
+  {
     "date": "2026-03-10",
     "title": "AI News Digest (Baseline Format)",
-    "summary": "Today’s AI cycle is all about production hardening: security buys, multi-agent code review, robotics-first edge hardware, and the growing split between local-first and API-first tooling.",
+    "summary": "Today's AI cycle is all about production hardening: security buys, multi-agent code review, robotics-first edge hardware, and the growing split between local-first and API-first tooling.",
     "tags": ["us-labs", "china", "open-source", "github", "openclaw", "local-ai", "api"],
     "stats": [
       {
@@ -11,7 +68,7 @@
       },
       {
         "value": "40 TOPS",
-        "text": "NPU in Qualcomm’s new Ventuno Q board, pushing embedded AI robotics into maker and industrial workflows."
+        "text": "NPU in Qualcomm's new Ventuno Q board, pushing embedded AI robotics into maker and industrial workflows."
       },
       {
         "value": "25% of Fortune 500",
@@ -25,7 +82,7 @@
           {
             "headline": "OpenAI to acquire Promptfoo",
             "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
-            "note": "OpenAI’s move suggests eval and security tooling is becoming core product infrastructure, not an add-on.",
+            "note": "OpenAI's move suggests eval and security tooling is becoming core product infrastructure, not an add-on.",
             "badges": ["🆕 NEW", "🔥 HOT", "US"]
           },
           {
@@ -150,40 +207,11 @@
         ]
       }
     ],
-    "implementation": "1) Pilot Promptfoo-style security gate in one repo with explicit fail conditions for prompt-injection, leakage, and unsafe tool calls. 2) Run side-by-side benchmark (human-only vs multi-agent code review) on a recent PR batch and measure defect yield/time. 3) Prototype one local edge agent loop (sensor/event → local model → action) to validate latency and reliability assumptions before scaling.",
+    "implementation": "1) Pilot Promptfoo-style security gate in one repo with explicit fail conditions for prompt-injection, leakage, and unsafe tool calls. 2) Run side-by-side benchmark (human-only vs multi-agent code review) on a recent PR batch and measure defect yield/time. 3) Prototype one local edge agent loop (sensor/event -> local model -> action) to validate latency and reliability assumptions before scaling.",
     "sources": [
       {"name": "Hacker News", "url": "https://news.ycombinator.com/"},
       {"name": "The Verge AI", "url": "https://www.theverge.com/ai-artificial-intelligence"},
       {"name": "GitHub Trending", "url": "https://github.com/trending?since=weekly"}
     ]
-  },
-  {
-    "date": "2026-03-09",
-    "title": "Kickoff Edition",
-    "summary": "Project launched. Automated feed pipeline initialized.",
-    "tags": ["open-source", "github", "openclaw"],
-    "sections": [
-      {
-        "name": "Trending AI GitHub Repos",
-        "items": [
-          {
-            "headline": "Significant-Gravitas/AutoGPT",
-            "url": "https://github.com/Significant-Gravitas/AutoGPT",
-            "note": "Watched agent ecosystem."
-          },
-          {
-            "headline": "OpenHands/OpenHands",
-            "url": "https://github.com/OpenHands/OpenHands",
-            "note": "AI-driven development assistant momentum."
-          },
-          {
-            "headline": "FlowiseAI/Flowise",
-            "url": "https://github.com/FlowiseAI/Flowise",
-            "note": "Visual workflow builder for agents."
-          }
-        ]
-      }
-    ],
-    "implementation": "Use Daily AI as the strategic radar and convert one insight per day into a practical project action."
   }
 ]
