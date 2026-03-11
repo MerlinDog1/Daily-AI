@@ -1,8 +1,124 @@
 [
   {
+    "date": "2026-03-11 PM",
+    "title": "Tooling Upgrade Pass \u2014 Skills-First Research Pipeline",
+    "summary": "Today\u2019s pass focused on operational upgrades: tighter search tooling, safer skill intake, and better job orchestration. The key shift is from one-off prompting to repeatable jobs with explicit ownership, review gates, and source discipline.",
+    "tags": [
+      "openclaw",
+      "workflows",
+      "skills",
+      "github",
+      "research",
+      "automation"
+    ],
+    "stats": [
+      {
+        "value": "10+ new skills",
+        "text": "Installed and vetted for search, browser automation, UX, SQL, TTS, and workflow automation."
+      },
+      {
+        "value": "2 suspicious flagged",
+        "text": "VirusTotal gates correctly blocked risky installs until explicit approval."
+      },
+      {
+        "value": "1 jobs framework",
+        "text": "`AGENT_JOBS.md` now defines consistent roles, lanes, approval gates, and done criteria."
+      }
+    ],
+    "sections": [
+      {
+        "name": "What Changed Today",
+        "items": [
+          {
+            "headline": "Jobs-first operating model wired into projects",
+            "url": "https://github.com/MerlinDog1/Daily-AI",
+            "note": "Daily-AI and CuZn now have TASKS.json lanes and job ownership structure linked to AGENT_JOBS.md.",
+            "badges": [
+              "Ops",
+              "OpenClaw"
+            ]
+          },
+          {
+            "headline": "ClawHub-driven shortlist + security vetting in production",
+            "url": "https://clawhub.ai/skills?sort=downloads&nonSuspicious=true",
+            "note": "Installed shortlist via CLI; blocked suspicious packages by default; allowed only after explicit human approval.",
+            "badges": [
+              "Security",
+              "Skills"
+            ]
+          },
+          {
+            "headline": "Agent-browser approved with risk note",
+            "url": "https://github.com/vercel-labs/agent-browser",
+            "note": "High-power browser automation added for trusted tasks only due to elevated session/control surface.",
+            "badges": [
+              "Browser",
+              "Risk-managed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Implementation Videos Worth Studying",
+        "items": [
+          {
+            "headline": "OpenClaw: Mission Control + Agent Teams",
+            "url": "https://www.youtube.com/watch?v=N1LEaXj_LZM",
+            "note": "Strong pattern: central task board + live feed + approval gates for multi-agent reliability."
+          },
+          {
+            "headline": "OpenClaw Skills Tutorial",
+            "url": "https://www.youtube.com/watch?v=CENnPXxVUAc",
+            "note": "High signal on building reusable local skills and reducing prompt drift with explicit workflow docs."
+          },
+          {
+            "headline": "How to create JOBS for OpenClaw agents",
+            "url": "https://www.youtube.com/watch?v=uUN1oy2PRHo",
+            "note": "Best takeaway: treat agents like employees with clear job definitions, not ad-hoc prompts."
+          }
+        ]
+      },
+      {
+        "name": "Newly Added Capability Areas",
+        "items": [
+          {
+            "headline": "Research stack expansion",
+            "url": "https://clawhub.ai",
+            "note": "tavily-search, multi-search-engine, youtube-watcher, web-search-plus improve coverage and fallback behavior."
+          },
+          {
+            "headline": "Execution stack expansion",
+            "url": "https://github.com/MerlinDog1/command-center",
+            "note": "playwright-mcp + agent-browser + automation-workflows add deeper automation options."
+          },
+          {
+            "headline": "Data and reporting stack",
+            "url": "https://github.com/MerlinDog1/ai-news-dashboard",
+            "note": "sql-toolkit and excel-xlsx support better structured outputs for dashboards and operational reporting."
+          }
+        ]
+      }
+    ],
+    "implementation": "Next step is to enforce one concrete daily job pack: (1) source harvest, (2) claim verification, (3) synthesis, (4) publish. Each stage gets an owner and done definition. This should materially improve consistency and reduce noisy updates.",
+    "sources": [
+      {
+        "name": "ClawHub",
+        "url": "https://clawhub.ai/"
+      },
+      {
+        "name": "OpenClaw Docs",
+        "url": "https://docs.openclaw.ai"
+      },
+      {
+        "name": "YouTube (implementation videos)",
+        "url": "https://www.youtube.com/watch?v=uUN1oy2PRHo"
+      }
+    ]
+  },
+  {
     "date": "2026-03-11",
-    "title": "Daily AI Update — Shipping-Grade Agents, China Model Scale, and Local-First Execution",
-    "summary": "Today’s signal is clear: AI stacks are maturing from demo outputs into reliability infrastructure. US labs are publishing control/eval primitives, China players are racing model scale and deployment, and open-source momentum remains strongest where teams can run workflows locally and audit behavior end-to-end.",
+    "title": "Daily AI Update \u2014 Shipping-Grade Agents, China Model Scale, and Local-First Execution",
+    "summary": "Today\u2019s signal is clear: AI stacks are maturing from demo outputs into reliability infrastructure. US labs are publishing control/eval primitives, China players are racing model scale and deployment, and open-source momentum remains strongest where teams can run workflows locally and audit behavior end-to-end.",
     "tags": [
       "us-labs",
       "china",
@@ -15,15 +131,15 @@
     "stats": [
       {
         "value": "1T+ params",
-        "text": "Alibaba’s Qwen3-Max reported at trillion-plus scale, reinforcing that frontier competition now spans both capability and deployment economics."
+        "text": "Alibaba\u2019s Qwen3-Max reported at trillion-plus scale, reinforcing that frontier competition now spans both capability and deployment economics."
       },
       {
         "value": "25% Fortune 500",
-        "text": "Promptfoo’s previously disclosed enterprise penetration is a strong indicator that eval/security gates are now standard procurement requirements."
+        "text": "Promptfoo\u2019s previously disclosed enterprise penetration is a strong indicator that eval/security gates are now standard procurement requirements."
       },
       {
         "value": "6 repos tracked",
-        "text": "Today’s hot GitHub list clusters around agent orchestration, memory, and production workflow glue rather than pure model demos."
+        "text": "Today\u2019s hot GitHub list clusters around agent orchestration, memory, and production workflow glue rather than pure model demos."
       }
     ],
     "sections": [
@@ -38,12 +154,12 @@
           {
             "headline": "Enterprise eval is now mandatory infra",
             "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
-            "note": "OpenAI’s Promptfoo move highlights that red-teaming and regression testing are no longer optional add-ons; they are shipping gates for customer trust."
+            "note": "OpenAI\u2019s Promptfoo move highlights that red-teaming and regression testing are no longer optional add-ons; they are shipping gates for customer trust."
           },
           {
             "headline": "Agent workflow repos continue compounding",
             "url": "https://github.com/OpenHands/OpenHands",
-            "note": "OpenHands and adjacent projects keep gaining adoption because they solve practical loops (plan → act → verify), not just prompt quality."
+            "note": "OpenHands and adjacent projects keep gaining adoption because they solve practical loops (plan \u2192 act \u2192 verify), not just prompt quality."
           }
         ]
       },
@@ -80,7 +196,7 @@
             ]
           },
           {
-            "headline": "Alibaba’s Qwen3-Max raises China frontier bar",
+            "headline": "Alibaba\u2019s Qwen3-Max raises China frontier bar",
             "url": "https://www.reuters.com/world/china/alibaba-launches-qwen3-max-ai-model-with-more-than-trillion-parameters-2025-09-24/",
             "note": "Corroboration: Reuters coverage plus Alibaba/Qwen channels show continued high-velocity model competition in China and stronger domestic ecosystem pull.",
             "badges": [
@@ -211,7 +327,7 @@
           {
             "headline": "Prototype China/US balanced coverage alerts",
             "url": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/",
-            "note": "Run a daily fetch that enforces regional balance so the digest doesn’t drift into single-ecosystem bias."
+            "note": "Run a daily fetch that enforces regional balance so the digest doesn\u2019t drift into single-ecosystem bias."
           }
         ]
       }
@@ -368,8 +484,8 @@
             "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
             "note": "OpenAI's move suggests eval and security tooling is becoming core product infrastructure, not an add-on.",
             "badges": [
-              "🆕 NEW",
-              "🔥 HOT",
+              "\ud83c\udd95 NEW",
+              "\ud83d\udd25 HOT",
               "US"
             ]
           },
@@ -378,8 +494,8 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence",
             "note": "A strong signal that AI coding assistants are moving from generation into quality gates and review automation.",
             "badges": [
-              "🆕 NEW",
-              "🔥 HOT",
+              "\ud83c\udd95 NEW",
+              "\ud83d\udd25 HOT",
               "US"
             ]
           },
@@ -388,8 +504,8 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence",
             "note": "Ventuno Q combines 16GB RAM with a 40 TOPS NPU to target autonomous robotics and sensor-driven edge workloads.",
             "badges": [
-              "🆕 NEW",
-              "🏠 LOCAL"
+              "\ud83c\udd95 NEW",
+              "\ud83c\udfe0 LOCAL"
             ]
           },
           {
@@ -397,8 +513,8 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence",
             "note": "Enterprise copilots may increasingly become orchestration shells over multiple model providers.",
             "badges": [
-              "🆕 NEW",
-              "☁️ API"
+              "\ud83c\udd95 NEW",
+              "\u2601\ufe0f API"
             ]
           },
           {
@@ -406,7 +522,7 @@
             "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
             "note": "One of the cleaner public case studies on compensation models for generative media businesses.",
             "badges": [
-              "🆕 NEW",
+              "\ud83c\udd95 NEW",
               "Creator"
             ]
           }
@@ -438,7 +554,7 @@
           {
             "headline": "666ghj/MiroFish",
             "url": "https://github.com/666ghj/MiroFish",
-            "note": "+5,022/week — strong momentum for non-transformer inference patterns."
+            "note": "+5,022/week \u2014 strong momentum for non-transformer inference patterns."
           },
           {
             "headline": "virattt/ai-hedge-fund",
@@ -468,7 +584,7 @@
         ]
       },
       {
-        "name": "Run It Locally 🏠 LOCAL",
+        "name": "Run It Locally \ud83c\udfe0 LOCAL",
         "items": [
           {
             "headline": "Ventuno Q class edge builds",
@@ -488,7 +604,7 @@
         ]
       },
       {
-        "name": "API Tools ☁️ API",
+        "name": "API Tools \u2601\ufe0f API",
         "items": [
           {
             "headline": "Promptfoo ecosystem",

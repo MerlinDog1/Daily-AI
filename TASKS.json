@@ -1,0 +1,30 @@
+{
+  "project": "Daily-AI",
+  "lanes": {
+    "backlog": [
+      {
+        "id": "daily-brief-refresh",
+        "owner": "subagent:research",
+        "priority": "P1",
+        "approvalRequired": false
+      },
+      {
+        "id": "source-quality-audit",
+        "owner": "main",
+        "priority": "P1",
+        "approvalRequired": false
+      },
+      {
+        "id": "playwright-deep-extract",
+        "owner": "subagent:research",
+        "priority": "P2",
+        "approvalRequired": false
+      }
+    ],
+    "ready": [],
+    "running": [],
+    "review": [],
+    "blocked": [],
+    "done": []
+  }
+}
