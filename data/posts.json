@@ -1,8 +1,279 @@
 [
   {
+    "date": "2026-03-12",
+    "title": "Daily AI Update — Agent Security, China Open-Model Pressure, and GitHub’s Automation Surge",
+    "summary": "Today’s signal is execution maturity: major US platforms are pushing agent safety and enterprise deployment patterns, while China’s labs continue compressing cost and release cycles with aggressive open-model distribution. On GitHub, the fastest-rising projects are practical agent operations stacks, not just model demos — a strong indicator that workflow reliability is where near-term advantage is being built.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "6,167 stars/day",
+        "text": "agency-agents led GitHub daily trending, showing outsized demand for role-based, multi-agent workflow templates teams can run immediately."
+      },
+      {
+        "value": "3 major OpenAI posts (24h)",
+        "text": "OpenAI’s feed clustered around agent security/runtime engineering and real enterprise deployment, pointing to production hardening over hype launches."
+      },
+      {
+        "value": "5+ China model pushes",
+        "text": "Reuters/CNBC coverage indicates China’s AI race has shifted from pure benchmark battles to aggressive user acquisition and lower-cost model rollout."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "GitHub trend velocity now favors agent operations repos",
+            "url": "https://github.com/trending?since=daily",
+            "note": "Today’s board is dominated by deployable agent systems (agency-agents, promptfoo, page-agent, hermes-agent). Why it matters: teams are prioritizing orchestration, guardrails, and delivery throughput over raw model experimentation."
+          },
+          {
+            "headline": "OpenAI’s latest cycle emphasizes secure agents + enterprise proof",
+            "url": "https://openai.com/news/rss.xml",
+            "note": "The most recent OpenAI entries concentrate on prompt-injection resistance, agent runtime architecture, and customer deployment stories. Why it matters: the center of gravity is now reliability and operational trust."
+          },
+          {
+            "headline": "China’s model competition is accelerating through open releases and distribution",
+            "url": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/",
+            "note": "Reuters and CNBC both describe intensified launch cadence and commercialization tactics around major Chinese model families. Why it matters: pricing pressure and rapid iteration are becoming structural, not cyclical."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "OpenAI details practical defenses against prompt injection",
+            "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+            "note": "Primary source lays out concrete agent constraints and sensitive-action protections. Corroboration: OpenAI News RSS publication trail. Why it matters: these controls are directly applicable to any tool-using assistant workflow in production.",
+            "badges": [
+              "US",
+              "Safety",
+              "Agents"
+            ]
+          },
+          {
+            "headline": "OpenAI publishes how it equipped Responses API with a computer environment",
+            "url": "https://openai.com/index/equip-responses-api-computer-environment",
+            "note": "Primary engineering write-up covers hosted runtime, file state, and tool execution design. Corroboration: listed in OpenAI RSS on Mar 11. Why it matters: clearer blueprint for scaling agent tasks without custom infrastructure from scratch.",
+            "badges": [
+              "US",
+              "Platform",
+              "API"
+            ]
+          },
+          {
+            "headline": "Google expands Gemini impact in real workflows, from Sheets to healthcare",
+            "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+            "note": "Google’s workspace update plus new health initiative in rural Australia shows AI moving deeper into domain-specific operations. Corroboration: https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/. Why it matters: value is increasingly measured by embedded task outcomes, not standalone model demos.",
+            "badges": [
+              "US",
+              "Product",
+              "Applied AI"
+            ]
+          },
+          {
+            "headline": "Reuters: Alibaba unveils Qwen 3.5 for agentic tasks",
+            "url": "https://www.reuters.com/world/china/alibaba-unveils-new-qwen35-model-agentic-ai-era-2026-02-16/",
+            "note": "Reuters reports Alibaba positioning Qwen 3.5 around autonomous task execution and improved cost/performance. Corroboration: broader regional momentum covered by CNBC’s China model rollout analysis. Why it matters: China’s frontier competition is now strongly tied to deployability and economics.",
+            "badges": [
+              "China",
+              "Models",
+              "Agents"
+            ]
+          },
+          {
+            "headline": "Reuters: DeepSeek reportedly withholds latest model from US chipmakers",
+            "url": "https://www.reuters.com/world/china/deepseek-withholds-latest-ai-model-us-chipmakers-including-nvidia-sources-say-2026-02-25/",
+            "note": "Report suggests strategic release asymmetry and domestic optimization lead time for Chinese chip ecosystems. Corroboration: Reuters Jan/Feb DeepSeek rollout coverage. Why it matters: compute geopolitics and software timing are increasingly intertwined in model strategy.",
+            "badges": [
+              "China",
+              "Chips",
+              "Policy"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "promptfoo/promptfoo",
+            "url": "https://github.com/promptfoo/promptfoo",
+            "note": "Still one of the strongest open-source eval/security stacks for prompt, RAG, and agent testing; ideal for CI gating before production rollouts."
+          },
+          {
+            "headline": "alibaba/page-agent",
+            "url": "https://github.com/alibaba/page-agent",
+            "note": "In-page GUI agent approach is useful for semi-structured web workflows where full API integration is unavailable."
+          },
+          {
+            "headline": "NousResearch/hermes-agent",
+            "url": "https://github.com/NousResearch/hermes-agent",
+            "note": "Agent framework momentum reflects demand for adaptable memory/tooling loops rather than fixed single-prompt assistants."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "msitarzewski/agency-agents",
+            "url": "https://github.com/msitarzewski/agency-agents",
+            "note": "~6k stars today; role-specialized agent operating model resonates with teams adopting AI via explicit responsibilities."
+          },
+          {
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "Continues high-velocity growth; interest remains strong in nontraditional prediction engines and alternative intelligence architectures."
+          },
+          {
+            "headline": "promptfoo/promptfoo",
+            "url": "https://github.com/promptfoo/promptfoo",
+            "note": "Security/eval tooling is trending because enterprises now expect measurable agent risk controls before deployment."
+          },
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "High traction for methodology-first agent engineering suggests teams want repeatable process, not ad-hoc prompt craft."
+          },
+          {
+            "headline": "alibaba/page-agent",
+            "url": "https://github.com/alibaba/page-agent",
+            "note": "Web-interface automation continues to gain attention as a practical bridge where APIs are fragmented or absent."
+          },
+          {
+            "headline": "NousResearch/hermes-agent",
+            "url": "https://github.com/NousResearch/hermes-agent",
+            "note": "Shows ongoing demand for extensible personal-agent patterns with memory and long-horizon task continuity."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Set up promptfoo eval gate for Daily-AI publish quality",
+            "url": "https://github.com/promptfoo/promptfoo",
+            "note": "Run local checks for section counts, duplicate headlines, stale links, and missing “why-it-matters” language before every push."
+          },
+          {
+            "headline": "Prototype page-agent for competitor/site intelligence capture",
+            "url": "https://github.com/alibaba/page-agent",
+            "note": "Use local browser automation to extract structured examples of premium signage/messaging patterns for content and positioning inspiration."
+          },
+          {
+            "headline": "Trial hermes-agent as long-memory research assistant",
+            "url": "https://github.com/NousResearch/hermes-agent",
+            "note": "Run a local memory-backed agent that tracks recurring themes across Daily-AI posts to reduce repetition and surface fresh angles."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "OpenAI Responses API agent runtime patterns",
+            "url": "https://openai.com/index/equip-responses-api-computer-environment",
+            "note": "Useful reference for tool sandboxing, file lifecycle, and controlled execution when moving from prototype agents to production workloads."
+          },
+          {
+            "headline": "Gemini for Sheets workflow automation",
+            "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+            "note": "Strong fit for ops teams that already live in spreadsheets and want AI-assisted analysis without context-switching into separate chat UIs."
+          },
+          {
+            "headline": "NVIDIA GTC 2026 agenda watch for infra planning",
+            "url": "https://www.nvidia.com/gtc/",
+            "note": "Pre-conference material signals heavy focus on inference, agentic systems, and AI factories — useful for prioritizing near-term infrastructure bets."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Add dual-source enforcement for every Breaking item",
+            "url": "https://openai.com/news/rss.xml",
+            "note": "Implement a publish rule: one primary source + one corroborating source per news item, otherwise draft fails CI."
+          },
+          {
+            "headline": "Create a China/US balance meter in the generator",
+            "url": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/",
+            "note": "Auto-score each draft for regional diversity so coverage doesn’t drift into a single-ecosystem narrative."
+          },
+          {
+            "headline": "Build a niche angle block for luxury brass signage applications",
+            "url": "https://github.com/msitarzewski/agency-agents",
+            "note": "Append one daily tactical paragraph translating AI workflow trends into lead-gen/content ops ideas for Trade Etching Direct’s premium brochure project."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Add a validator that enforces required sections and item counts from DAILY_EDITORIAL_GUIDE.md. 2) Introduce a corroboration field in schema so every Breaking item captures primary+secondary links explicitly. 3) Add a rolling 7-day topic diversity check to suppress repetitive stories and keep Daily-AI fresh.",
+    "sources": [
+      {
+        "name": "OpenAI News RSS",
+        "url": "https://openai.com/news/rss.xml"
+      },
+      {
+        "name": "OpenAI: Designing agents to resist prompt injection",
+        "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection"
+      },
+      {
+        "name": "OpenAI: Responses API computer environment",
+        "url": "https://openai.com/index/equip-responses-api-computer-environment"
+      },
+      {
+        "name": "Google AI RSS",
+        "url": "https://blog.google/technology/ai/rss/"
+      },
+      {
+        "name": "Google Workspace Gemini in Sheets",
+        "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
+      },
+      {
+        "name": "Google Health AI in rural Australia",
+        "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/"
+      },
+      {
+        "name": "Reuters: Alibaba Qwen 3.5",
+        "url": "https://www.reuters.com/world/china/alibaba-unveils-new-qwen35-model-agentic-ai-era-2026-02-16/"
+      },
+      {
+        "name": "Reuters: DeepSeek withholds model from US chipmakers",
+        "url": "https://www.reuters.com/world/china/deepseek-withholds-latest-ai-model-us-chipmakers-including-nvidia-sources-say-2026-02-25/"
+      },
+      {
+        "name": "Reuters: low-cost Chinese model wave",
+        "url": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/"
+      },
+      {
+        "name": "CNBC: China’s 5 new AI models",
+        "url": "https://www.cnbc.com/2026/03/01/forget-deepseek-of-chinas-5-new-ai-models-ubs-prefers-this-one.html"
+      },
+      {
+        "name": "GitHub Trending",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "NVIDIA GTC 2026",
+        "url": "https://www.nvidia.com/gtc/"
+      }
+    ]
+  },
+  {
     "date": "2026-03-11 PM",
-    "title": "Tooling Upgrade Pass \u2014 Skills-First Research Pipeline",
-    "summary": "Today\u2019s pass focused on operational upgrades: tighter search tooling, safer skill intake, and better job orchestration. The key shift is from one-off prompting to repeatable jobs with explicit ownership, review gates, and source discipline.",
+    "title": "Tooling Upgrade Pass — Skills-First Research Pipeline",
+    "summary": "Today’s pass focused on operational upgrades: tighter search tooling, safer skill intake, and better job orchestration. The key shift is from one-off prompting to repeatable jobs with explicit ownership, review gates, and source discipline.",
     "tags": [
       "openclaw",
       "workflows",
@@ -117,8 +388,8 @@
   },
   {
     "date": "2026-03-11",
-    "title": "Daily AI Update \u2014 Shipping-Grade Agents, China Model Scale, and Local-First Execution",
-    "summary": "Today\u2019s signal is clear: AI stacks are maturing from demo outputs into reliability infrastructure. US labs are publishing control/eval primitives, China players are racing model scale and deployment, and open-source momentum remains strongest where teams can run workflows locally and audit behavior end-to-end.",
+    "title": "Daily AI Update — Shipping-Grade Agents, China Model Scale, and Local-First Execution",
+    "summary": "Today’s signal is clear: AI stacks are maturing from demo outputs into reliability infrastructure. US labs are publishing control/eval primitives, China players are racing model scale and deployment, and open-source momentum remains strongest where teams can run workflows locally and audit behavior end-to-end.",
     "tags": [
       "us-labs",
       "china",
@@ -131,15 +402,15 @@
     "stats": [
       {
         "value": "1T+ params",
-        "text": "Alibaba\u2019s Qwen3-Max reported at trillion-plus scale, reinforcing that frontier competition now spans both capability and deployment economics."
+        "text": "Alibaba’s Qwen3-Max reported at trillion-plus scale, reinforcing that frontier competition now spans both capability and deployment economics."
       },
       {
         "value": "25% Fortune 500",
-        "text": "Promptfoo\u2019s previously disclosed enterprise penetration is a strong indicator that eval/security gates are now standard procurement requirements."
+        "text": "Promptfoo’s previously disclosed enterprise penetration is a strong indicator that eval/security gates are now standard procurement requirements."
       },
       {
         "value": "6 repos tracked",
-        "text": "Today\u2019s hot GitHub list clusters around agent orchestration, memory, and production workflow glue rather than pure model demos."
+        "text": "Today’s hot GitHub list clusters around agent orchestration, memory, and production workflow glue rather than pure model demos."
       }
     ],
     "sections": [
@@ -154,12 +425,12 @@
           {
             "headline": "Enterprise eval is now mandatory infra",
             "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
-            "note": "OpenAI\u2019s Promptfoo move highlights that red-teaming and regression testing are no longer optional add-ons; they are shipping gates for customer trust."
+            "note": "OpenAI’s Promptfoo move highlights that red-teaming and regression testing are no longer optional add-ons; they are shipping gates for customer trust."
           },
           {
             "headline": "Agent workflow repos continue compounding",
             "url": "https://github.com/OpenHands/OpenHands",
-            "note": "OpenHands and adjacent projects keep gaining adoption because they solve practical loops (plan \u2192 act \u2192 verify), not just prompt quality."
+            "note": "OpenHands and adjacent projects keep gaining adoption because they solve practical loops (plan → act → verify), not just prompt quality."
           }
         ]
       },
@@ -196,7 +467,7 @@
             ]
           },
           {
-            "headline": "Alibaba\u2019s Qwen3-Max raises China frontier bar",
+            "headline": "Alibaba’s Qwen3-Max raises China frontier bar",
             "url": "https://www.reuters.com/world/china/alibaba-launches-qwen3-max-ai-model-with-more-than-trillion-parameters-2025-09-24/",
             "note": "Corroboration: Reuters coverage plus Alibaba/Qwen channels show continued high-velocity model competition in China and stronger domestic ecosystem pull.",
             "badges": [
@@ -327,7 +598,7 @@
           {
             "headline": "Prototype China/US balanced coverage alerts",
             "url": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/",
-            "note": "Run a daily fetch that enforces regional balance so the digest doesn\u2019t drift into single-ecosystem bias."
+            "note": "Run a daily fetch that enforces regional balance so the digest doesn’t drift into single-ecosystem bias."
           }
         ]
       }
@@ -484,8 +755,8 @@
             "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
             "note": "OpenAI's move suggests eval and security tooling is becoming core product infrastructure, not an add-on.",
             "badges": [
-              "\ud83c\udd95 NEW",
-              "\ud83d\udd25 HOT",
+              "🆕 NEW",
+              "🔥 HOT",
               "US"
             ]
           },
@@ -494,8 +765,8 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence",
             "note": "A strong signal that AI coding assistants are moving from generation into quality gates and review automation.",
             "badges": [
-              "\ud83c\udd95 NEW",
-              "\ud83d\udd25 HOT",
+              "🆕 NEW",
+              "🔥 HOT",
               "US"
             ]
           },
@@ -504,8 +775,8 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence",
             "note": "Ventuno Q combines 16GB RAM with a 40 TOPS NPU to target autonomous robotics and sensor-driven edge workloads.",
             "badges": [
-              "\ud83c\udd95 NEW",
-              "\ud83c\udfe0 LOCAL"
+              "🆕 NEW",
+              "🏠 LOCAL"
             ]
           },
           {
@@ -513,8 +784,8 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence",
             "note": "Enterprise copilots may increasingly become orchestration shells over multiple model providers.",
             "badges": [
-              "\ud83c\udd95 NEW",
-              "\u2601\ufe0f API"
+              "🆕 NEW",
+              "☁️ API"
             ]
           },
           {
@@ -522,7 +793,7 @@
             "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
             "note": "One of the cleaner public case studies on compensation models for generative media businesses.",
             "badges": [
-              "\ud83c\udd95 NEW",
+              "🆕 NEW",
               "Creator"
             ]
           }
@@ -554,7 +825,7 @@
           {
             "headline": "666ghj/MiroFish",
             "url": "https://github.com/666ghj/MiroFish",
-            "note": "+5,022/week \u2014 strong momentum for non-transformer inference patterns."
+            "note": "+5,022/week — strong momentum for non-transformer inference patterns."
           },
           {
             "headline": "virattt/ai-hedge-fund",
@@ -584,7 +855,7 @@
         ]
       },
       {
-        "name": "Run It Locally \ud83c\udfe0 LOCAL",
+        "name": "Run It Locally 🏠 LOCAL",
         "items": [
           {
             "headline": "Ventuno Q class edge builds",
@@ -604,7 +875,7 @@
         ]
       },
       {
-        "name": "API Tools \u2601\ufe0f API",
+        "name": "API Tools ☁️ API",
         "items": [
           {
             "headline": "Promptfoo ecosystem",
