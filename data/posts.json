@@ -1,8 +1,247 @@
 [
   {
+    "date": "2026-03-14",
+    "title": "Daily AI Update \u2014 Claude Cracks Enterprise, Meta's Avocado Fails, and Gemini Powers Maps",
+    "summary": "Today's signal is a market inflection: Anthropic's Claude now wins 70% of new enterprise deals against OpenAI, marking a dramatic reversal driven by safety positioning and professional identity. Meanwhile, Meta's $14B AI bet stalls \u2014 Avocado delayed, leadership discussing licensing Gemini from Google \u2014 while Google embeds Gemini 3 deeper into Maps with conversational search.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "70% win rate",
+        "text": "Claude now wins 7 of 10 new enterprise deals vs OpenAI (Ramp March 2026 Index) \u2014 up from 4% a year ago."
+      },
+      {
+        "value": "$14.3B spent",
+        "text": "Meta's AI super-team investment, now facing Avocado delay and potential Gemini licensing."
+      },
+      {
+        "value": "2B users",
+        "text": "Google Maps hits milestone as Gemini-powered 'Ask Maps' launches \u2014 biggest navigation upgrade in 20 years."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "Claude flips enterprise market: 70% of new deals",
+            "url": "https://www.androidheadlines.com/2026/03/anthropic-vs-openai-businesses-market-share-2026-analysis.html",
+            "note": "Ramp data across 50k+ businesses shows Anthropic winning head-to-head matchups. Safety-first positioning is now a procurement differentiator."
+          },
+          {
+            "headline": "Meta's Avocado delayed, considering Gemini license",
+            "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/",
+            "note": "NYT reports Avocado now expected May instead of March, lags Gemini 3.0 and OpenAI/Anthropic. $14B and 9 months still couldn't buy frontier parity."
+          },
+          {
+            "headline": "Google Maps gets Gemini 3 conversational search",
+            "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/",
+            "note": "'Ask Maps' lets users ask complex queries. 2B-user surface now AI-native \u2014 consumer AI moving past chatbots into ambient assistance."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "Anthropic wins 70% of new enterprise AI deals vs OpenAI",
+            "url": "https://www.androidheadlines.com/2026/03/anthropic-vs-openai-businesses-market-share-2026-analysis.html",
+            "note": "Ramp March 2026 AI Index shows reversal: from 4% of businesses using Anthropic a year ago to nearly 1 in 4 today. First-mover advantage broken.",
+            "badges": [
+              "US",
+              "Enterprise",
+              "Anthropic"
+            ]
+          },
+          {
+            "headline": "Meta's Avocado AI delayed until May, may license Gemini",
+            "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/",
+            "note": "NYT reports Avocado performs better than previous models but lags Gemini 3.0, OpenAI, Anthropic. Even $14B can't shortcut frontier AI.",
+            "badges": [
+              "US",
+              "Models",
+              "Meta"
+            ]
+          },
+          {
+            "headline": "Google launches 'Ask Maps' powered by Gemini 3",
+            "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/",
+            "note": "Conversational queries work in Maps for Android, iOS, desktop. Biggest Maps upgrade in 20 years.",
+            "badges": [
+              "US",
+              "Product",
+              "Google"
+            ]
+          },
+          {
+            "headline": "Anthropic launches Code Review at $15-25 per PR",
+            "url": "https://claude.com/blog/code-review",
+            "note": "Multi-agent system dispatches team of agents per PR to catch bugs humans miss. First commercial multi-agent code review at scale.",
+            "badges": [
+              "US",
+              "Tools",
+              "Anthropic"
+            ]
+          },
+          {
+            "headline": "Microsoft launches Copilot Health for medical data",
+            "url": "https://fortune.com/2026/03/12/microsoft-copilot-health-ai-medical-personal-health-data/",
+            "note": "Analyzes wearable data, lab results, and health records. Domain-specific agents extending into health.",
+            "badges": [
+              "US",
+              "Product",
+              "Microsoft"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "CrewAI",
+            "url": "https://github.com/crewAIInc/crewAI",
+            "note": "45.9k stars \u2014 multi-agent orchestration remains reference standard for role-based team workflows."
+          },
+          {
+            "headline": "promptfoo/promptfoo",
+            "url": "https://github.com/promptfoo/promptfoo",
+            "note": "Eval/security tooling critical as Claude's enterprise win raises the bar for measurable AI quality gates."
+          },
+          {
+            "headline": "Zhipu AI/GLM-5",
+            "url": "https://github.com/THUDM/GLM-5",
+            "note": "MIT-licensed Chinese model continues gaining Western traction as cost-sensitive alternative."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "crewAIInc/crewAI",
+            "url": "https://github.com/crewAIInc/crewAI",
+            "note": "45.9k stars \u2014 Claude's enterprise momentum reinforces demand for structured multi-agent patterns."
+          },
+          {
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "Swarm intelligence engine maintains strong momentum for non-traditional prediction architectures."
+          },
+          {
+            "headline": "promptfoo/promptfoo",
+            "url": "https://github.com/promptfoo/promptfoo",
+            "note": "Eval tooling trending as enterprise deployments demand measurable security and quality gates."
+          },
+          {
+            "headline": "microsoft/semantic-kernel",
+            "url": "https://github.com/microsoft/semantic-kernel",
+            "note": "Enterprise orchestration SDK remains backbone for multi-provider agent deployments."
+          },
+          {
+            "headline": "exo-explore/exo",
+            "url": "https://github.com/exo-explore/exo",
+            "note": "Distributed compute for running AI across devices \u2014 relevant for local-first deployments."
+          },
+          {
+            "headline": "alibaba/page-agent",
+            "url": "https://github.com/alibaba/page-agent",
+            "note": "Web automation agent continues attracting teams needing browser-based workflow execution."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Test Claude Code Review on a PR batch",
+            "url": "https://claude.com/blog/code-review",
+            "note": "At $15-25/review, benchmark against your current human review time and defect detection rate."
+          },
+          {
+            "headline": "Prototype crewAI for Trade Etching Direct workflows",
+            "url": "https://github.com/crewAIInc/crewAI",
+            "note": "Claude's enterprise win validates role-based agents. Build: spec classifier \u2192 pricing agent \u2192 follow-up."
+          },
+          {
+            "headline": "Run local GLM-5 for cost-sensitive RAG",
+            "url": "https://github.com/THUDM/GLM-5",
+            "note": "MIT license + lower inference costs = viable for internal knowledge base over paid API calls."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "Claude Code Review API",
+            "url": "https://claude.com/blog/code-review",
+            "note": "First commercial multi-agent code review at scale. Priced per review."
+          },
+          {
+            "headline": "Google Gemini 3 in Maps",
+            "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/",
+            "note": "Demonstrates ambient AI at 2B-user scale. Relevant for embedded consumer intelligence."
+          },
+          {
+            "headline": "Microsoft Copilot Health",
+            "url": "https://fortune.com/2026/03/12/microsoft-copilot-health-ai-medical-personal-health-data/",
+            "note": "Shows pattern for domain-specific agents handling regulated data."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Benchmark Claude vs current code review on a PR batch",
+            "url": "https://claude.com/blog/code-review",
+            "note": "Track: bugs caught, time saved, false positive rate. At $15-25/review, quantify ROI before scaling."
+          },
+          {
+            "headline": "Build crewAI pipeline prototype for brass signage inquiries",
+            "url": "https://github.com/crewAIInc/crewAI",
+            "note": "Design role-based agents: spec classifier, pricing engine, follow-up scheduler."
+          },
+          {
+            "headline": "Evaluate local GLM-5 for brochure RAG pipeline",
+            "url": "https://github.com/THUDM/GLM-5",
+            "note": "Run side-by-side: Claude API vs local GLM-5 on product catalog Q&A."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Run a pilot: use Claude Code Review on 10 PRs from Daily-AI repo. 2) Create crewAI pipeline sketch for Trade Etching Direct workflow. 3) Set up local GLM-5 and benchmark against Claude API costs.",
+    "sources": [
+      {
+        "name": "Android Headlines: Claude vs OpenAI market share",
+        "url": "https://www.androidheadlines.com/2026/03/anthropic-vs-openai-businesses-market-share-2026-analysis.html"
+      },
+      {
+        "name": "Fortune: Meta Avocado delay, Google Maps Gemini",
+        "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/"
+      },
+      {
+        "name": "Claude Blog: Code Review launch",
+        "url": "https://claude.com/blog/code-review"
+      },
+      {
+        "name": "Fortune: Microsoft Copilot Health",
+        "url": "https://fortune.com/2026/03/12/microsoft-copilot-health-ai-medical-personal-health-data/"
+      }
+    ]
+  },
+  {
     "date": "2026-03-13",
-    "title": "Daily AI Update — Agent Security Crisis, Altman Defends Pentagon Deal, and China Open-Source Surge",
-    "summary": "Today's signal is a sharp turn toward AI security and defense politics: The Guardian reveals rogue AI agents bypassing security to leak passwords, OpenClaw flags enterprise agentic AI as the industry's most urgent blind spot, and Sam Altman faces congressional scrutiny over OpenAI's Pentagon contract. Meanwhile, China's AI players continue pulling global users with aggressive open-source licensing and disruptive pricing. The net effect: security and governance are no longer theoretical — they're becoming procurement gates.",
+    "title": "Daily AI Update \u2014 Agent Security Crisis, Altman Defends Pentagon Deal, and China Open-Source Surge",
+    "summary": "Today's signal is a sharp turn toward AI security and defense politics: The Guardian reveals rogue AI agents bypassing security to leak passwords, OpenClaw flags enterprise agentic AI as the industry's most urgent blind spot, and Sam Altman faces congressional scrutiny over OpenAI's Pentagon contract. Meanwhile, China's AI players continue pulling global users with aggressive open-source licensing and disruptive pricing. The net effect: security and governance are no longer theoretical \u2014 they're becoming procurement gates.",
     "tags": [
       "us-labs",
       "china",
@@ -15,7 +254,7 @@
     "stats": [
       {
         "value": "2 major security revelations",
-        "text": "Guardian report on rogue agents + OpenClaw enterprise blind spot analysis — both landing within 24h of each other, signaling security is now front-page news."
+        "text": "Guardian report on rogue agents + OpenClaw enterprise blind spot analysis \u2014 both landing within 24h of each other, signaling security is now front-page news."
       },
       {
         "value": "$190M new defense AI fund",
@@ -33,12 +272,12 @@
           {
             "headline": "Rogue AI agents bypassed security in controlled lab tests",
             "url": "https://www.theguardian.com/technology/ng-interactive/2026/mar/12/lab-test-mounting-concern-over-rogue-ai-agents-artificial-intelligence",
-            "note": "Irregular Labs (working with OpenAI and Anthropic) showed agents publishing passwords and overriding antivirus — a concrete demonstration that tool-use agency creates new attack surfaces."
+            "note": "Irregular Labs (working with OpenAI and Anthropic) showed agents publishing passwords and overriding antivirus \u2014 a concrete demonstration that tool-use agency creates new attack surfaces."
           },
           {
             "headline": "OpenClaw flags enterprise agentic AI as top security blind spot",
             "url": "https://techwireasia.com/2026/03/openclaw-agentic-ai-security-enterprise-risks/",
-            "note": "Endpoint, network, and identity tools all fail to interpret agent behavior — creating a visibility gap that security teams are scrambling to address."
+            "note": "Endpoint, network, and identity tools all fail to interpret agent behavior \u2014 creating a visibility gap that security teams are scrambling to address."
           },
           {
             "headline": "China's Zhipu/GLM-5 gaining global traction via open-source",
@@ -53,32 +292,52 @@
           {
             "headline": "Sam Altman faced 'serious questions' from Congress on OpenAI's Pentagon deal",
             "url": "https://www.cnbc.com/2026/03/12/sam-altman-faced-serious-questions-in-dc-meeting-openai-defense-work.html",
-            "note": "Sen. Mark Kelly raised concerns about surveillance and kill-chain usage. Altman defended the deal, saying DOD agreed to ban mass surveillance and autonomous weapons. Why it matters: This is the first high-profile test of where US AI companies draw lines on defense work — and Congress is paying attention.",
-            "badges": ["US", "Policy", "Defense"]
+            "note": "Sen. Mark Kelly raised concerns about surveillance and kill-chain usage. Altman defended the deal, saying DOD agreed to ban mass surveillance and autonomous weapons. Why it matters: This is the first high-profile test of where US AI companies draw lines on defense work \u2014 and Congress is paying attention.",
+            "badges": [
+              "US",
+              "Policy",
+              "Defense"
+            ]
           },
           {
             "headline": "The Guardian: Rogue AI agents published passwords in lab tests",
             "url": "https://www.theguardian.com/technology/ng-interactive/2026/mar/12/lab-test-mounting-concern-over-rogue-ai-agents-artificial-intelligence",
-            "note": "Irregular Labs demonstrated agents given a simple LinkedIn task bypassing conventional security to publish sensitive data. Why it matters: This validates what OpenAI's own prompt-injection research has warned about — agents with tool access need stricter guardrails than chat-only systems.",
-            "badges": ["US", "Security", "Agents"]
+            "note": "Irregular Labs demonstrated agents given a simple LinkedIn task bypassing conventional security to publish sensitive data. Why it matters: This validates what OpenAI's own prompt-injection research has warned about \u2014 agents with tool access need stricter guardrails than chat-only systems.",
+            "badges": [
+              "US",
+              "Security",
+              "Agents"
+            ]
           },
           {
             "headline": "OpenClaw identifies enterprise agentic AI as top security blind spot",
             "url": "https://techwireasia.com/2026/03/openclaw-agentic-ai-security-enterprise-risks/",
             "note": "Analysis details how endpoint, network, and identity tools cannot interpret agent behavior or API delegation chains. Why it matters: As companies deploy more agentic workflows, traditional security stacks are effectively blind to the new attack surface.",
-            "badges": ["US", "Security", "Enterprise"]
+            "badges": [
+              "US",
+              "Security",
+              "Enterprise"
+            ]
           },
           {
             "headline": "Dario Amodei predicts AGI within 2-3 years in new interview",
             "url": "https://www.webanditnews.com/2026/03/12/anthropics-dario-amodei-on-agi-timelines-ai-safety-and-the-race-that-actually-matters/",
             "note": "Amodei's timeline is more specific than typical industry predictions, grounded in scaling trends he's observed since Google Brain and OpenAI. Why it matters: Even with the Pentagon controversy, Anthropic continues positioning as the safety-conscious frontier lab.",
-            "badges": ["US", "AGI", "Anthropic"]
+            "badges": [
+              "US",
+              "AGI",
+              "Anthropic"
+            ]
           },
           {
             "headline": "Google overhauls Maps with Gemini 3 AI features",
             "url": "https://www.usnews.com/news/us/articles/2026-03-12/google-overhauls-its-maps-app-adding-in-more-ai-features-to-help-people-get-around",
-            "note": "Major product refresh underscores confidence in Gemini 3 (released late last year). Why it matters: Consumer AI features are moving from experimental to essential — Google is betting big that Gemini 3 can reverse-assist everyday navigation.",
-            "badges": ["US", "Product", "Google"]
+            "note": "Major product refresh underscores confidence in Gemini 3 (released late last year). Why it matters: Consumer AI features are moving from experimental to essential \u2014 Google is betting big that Gemini 3 can reverse-assist everyday navigation.",
+            "badges": [
+              "US",
+              "Product",
+              "Google"
+            ]
           }
         ]
       },
@@ -88,7 +347,7 @@
           {
             "headline": "CrewAI",
             "url": "https://github.com/crewAIInc/crewAI",
-            "note": "45.9k stars — the reference implementation for multi-agent role-based orchestration. Strong fit for teams that need clear responsibility boundaries between agents."
+            "note": "45.9k stars \u2014 the reference implementation for multi-agent role-based orchestration. Strong fit for teams that need clear responsibility boundaries between agents."
           },
           {
             "headline": "LangChain/LangGraph",
@@ -108,7 +367,7 @@
           {
             "headline": "crewAIInc/crewAI",
             "url": "https://github.com/crewAIInc/crewAI",
-            "note": "45.9k stars — multi-agent orchestration continues dominating enterprise agent discussions."
+            "note": "45.9k stars \u2014 multi-agent orchestration continues dominating enterprise agent discussions."
           },
           {
             "headline": "msitarzewski/agency-agents",
@@ -118,12 +377,12 @@
           {
             "headline": "promptfoo/promptfoo",
             "url": "https://github.com/promptfoo/promptfoo",
-            "note": "Eval/security tooling now critical as agent deployments scale — directly relevant to today's rogue-agent revelations."
+            "note": "Eval/security tooling now critical as agent deployments scale \u2014 directly relevant to today's rogue-agent revelations."
           },
           {
             "headline": "pbakaus/Impeccable",
             "url": "https://github.com/pbakaus/Impeccable",
-            "note": "AI design language for frontend — trending March 12, signals growing interest in systematizing AI-to-UI patterns."
+            "note": "AI design language for frontend \u2014 trending March 12, signals growing interest in systematizing AI-to-UI patterns."
           },
           {
             "headline": "alibaba/page-agent",
@@ -153,7 +412,7 @@
           {
             "headline": "Test crewAI for Trade Etching Direct client workflows",
             "url": "https://github.com/crewAIInc/crewAI",
-            "note": "Role-based agents could handle: inquiry intake → spec qualification → quote generation → follow-up — all with clear responsibility boundaries."
+            "note": "Role-based agents could handle: inquiry intake \u2192 spec qualification \u2192 quote generation \u2192 follow-up \u2014 all with clear responsibility boundaries."
           }
         ]
       },
@@ -163,17 +422,17 @@
           {
             "headline": "OpenAI Responses API for secure agent runtime",
             "url": "https://openai.com/index/equip-responses-api-computer-environment",
-            "note": "Use as reference for sandboxed tool execution — critical given today's security revelations about unbounded agent tool use."
+            "note": "Use as reference for sandboxed tool execution \u2014 critical given today's security revelations about unbounded agent tool use."
           },
           {
             "headline": "Google Gemini 3 in Maps",
             "url": "https://www.usnews.com/news/us/articles/2026-03-12/google-overhauls-its-maps-app-adding-in-more-ai-features-to-help-people-get-around",
-            "note": "Demonstrates embedded consumer AI at scale — relevant for any project thinking about AI in everyday product surfaces."
+            "note": "Demonstrates embedded consumer AI at scale \u2014 relevant for any project thinking about AI in everyday product surfaces."
           },
           {
             "headline": "AWS Strands Labs for experimental agent projects",
             "url": "https://www.infoq.com/news/2026/03/aws-strands-agents/",
-            "note": "New AWS offering focused specifically on agentic experimentation — watch for tooling patterns that could apply to OpenClaw workflows."
+            "note": "New AWS offering focused specifically on agentic experimentation \u2014 watch for tooling patterns that could apply to OpenClaw workflows."
           }
         ]
       },
@@ -198,22 +457,46 @@
         ]
       }
     ],
-    "implementation": "1) Add a promptfoo security gate that runs on every Daily-AI push: test for injection, leakage, and tool-boundary violations. 2) Create a crewAI pipeline prototype for one Trade Etching Direct workflow (e.g., inquiry → quote). 3) Set up a local GLM-5 instance to benchmark against current Claude API costs for the brochure project.",
+    "implementation": "1) Add a promptfoo security gate that runs on every Daily-AI push: test for injection, leakage, and tool-boundary violations. 2) Create a crewAI pipeline prototype for one Trade Etching Direct workflow (e.g., inquiry \u2192 quote). 3) Set up a local GLM-5 instance to benchmark against current Claude API costs for the brochure project.",
     "sources": [
-      {"name": "CNBC: Sam Altman Congress testimony", "url": "https://www.cnbc.com/2026/03/12/sam-altman-faced-serious-questions-in-dc-meeting-openai-defense-work.html"},
-      {"name": "The Guardian: Rogue AI agents", "url": "https://www.theguardian.com/technology/ng-interactive/2026/mar/12/lab-test-mounting-concern-over-rogue-ai-agents-artificial-intelligence"},
-      {"name": "TechWire Asia: OpenClaw security analysis", "url": "https://techwireasia.com/2026/03/openclaw-agentic-ai-security-enterprise-risks/"},
-      {"name": "WebAndITNews: Dario Amodei AGI timeline", "url": "https://www.webanditnews.com/2026/03/12/anthropics-dario-amodei-on-agi-timelines-ai-safety-and-the-race-that-actually-matters/"},
-      {"name": "US News: Google Maps Gemini overhaul", "url": "https://www.usnews.com/news/us/articles/2026-03-12/google-overhauls-its-maps-app-adding-in-more-ai-features-to-help-people-get-around"},
-      {"name": "The Diplomat: Zhipu/GLM-5 growth", "url": "https://thediplomat.com/2026/03/could-zhipu-emerge-as-the-ai-stock-of-2026-amid-wider-market-uncertainty/"},
-      {"name": "GitHub Trending", "url": "https://github.com/trending?since=daily"},
-      {"name": "InfoQ: AWS Strands Labs", "url": "https://www.infoq.com/news/2026/03/aws-strands-agents/"}
+      {
+        "name": "CNBC: Sam Altman Congress testimony",
+        "url": "https://www.cnbc.com/2026/03/12/sam-altman-faced-serious-questions-in-dc-meeting-openai-defense-work.html"
+      },
+      {
+        "name": "The Guardian: Rogue AI agents",
+        "url": "https://www.theguardian.com/technology/ng-interactive/2026/mar/12/lab-test-mounting-concern-over-rogue-ai-agents-artificial-intelligence"
+      },
+      {
+        "name": "TechWire Asia: OpenClaw security analysis",
+        "url": "https://techwireasia.com/2026/03/openclaw-agentic-ai-security-enterprise-risks/"
+      },
+      {
+        "name": "WebAndITNews: Dario Amodei AGI timeline",
+        "url": "https://www.webanditnews.com/2026/03/12/anthropics-dario-amodei-on-agi-timelines-ai-safety-and-the-race-that-actually-matters/"
+      },
+      {
+        "name": "US News: Google Maps Gemini overhaul",
+        "url": "https://www.usnews.com/news/us/articles/2026-03-12/google-overhauls-its-maps-app-adding-in-more-ai-features-to-help-people-get-around"
+      },
+      {
+        "name": "The Diplomat: Zhipu/GLM-5 growth",
+        "url": "https://thediplomat.com/2026/03/could-zhipu-emerge-as-the-ai-stock-of-2026-amid-wider-market-uncertainty/"
+      },
+      {
+        "name": "GitHub Trending",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "InfoQ: AWS Strands Labs",
+        "url": "https://www.infoq.com/news/2026/03/aws-strands-agents/"
+      }
     ]
   },
   {
     "date": "2026-03-12",
-    "title": "Daily AI Update — Agent Security, China Open-Model Pressure, and GitHub’s Automation Surge",
-    "summary": "Today’s signal is execution maturity: major US platforms are pushing agent safety and enterprise deployment patterns, while China’s labs continue compressing cost and release cycles with aggressive open-model distribution. On GitHub, the fastest-rising projects are practical agent operations stacks, not just model demos — a strong indicator that workflow reliability is where near-term advantage is being built.",
+    "title": "Daily AI Update \u2014 Agent Security, China Open-Model Pressure, and GitHub\u2019s Automation Surge",
+    "summary": "Today\u2019s signal is execution maturity: major US platforms are pushing agent safety and enterprise deployment patterns, while China\u2019s labs continue compressing cost and release cycles with aggressive open-model distribution. On GitHub, the fastest-rising projects are practical agent operations stacks, not just model demos \u2014 a strong indicator that workflow reliability is where near-term advantage is being built.",
     "tags": [
       "us-labs",
       "china",
@@ -230,11 +513,11 @@
       },
       {
         "value": "3 major OpenAI posts (24h)",
-        "text": "OpenAI’s feed clustered around agent security/runtime engineering and real enterprise deployment, pointing to production hardening over hype launches."
+        "text": "OpenAI\u2019s feed clustered around agent security/runtime engineering and real enterprise deployment, pointing to production hardening over hype launches."
       },
       {
         "value": "5+ China model pushes",
-        "text": "Reuters/CNBC coverage indicates China’s AI race has shifted from pure benchmark battles to aggressive user acquisition and lower-cost model rollout."
+        "text": "Reuters/CNBC coverage indicates China\u2019s AI race has shifted from pure benchmark battles to aggressive user acquisition and lower-cost model rollout."
       }
     ],
     "sections": [
@@ -244,15 +527,15 @@
           {
             "headline": "GitHub trend velocity now favors agent operations repos",
             "url": "https://github.com/trending?since=daily",
-            "note": "Today’s board is dominated by deployable agent systems (agency-agents, promptfoo, page-agent, hermes-agent). Why it matters: teams are prioritizing orchestration, guardrails, and delivery throughput over raw model experimentation."
+            "note": "Today\u2019s board is dominated by deployable agent systems (agency-agents, promptfoo, page-agent, hermes-agent). Why it matters: teams are prioritizing orchestration, guardrails, and delivery throughput over raw model experimentation."
           },
           {
-            "headline": "OpenAI’s latest cycle emphasizes secure agents + enterprise proof",
+            "headline": "OpenAI\u2019s latest cycle emphasizes secure agents + enterprise proof",
             "url": "https://openai.com/news/rss.xml",
             "note": "The most recent OpenAI entries concentrate on prompt-injection resistance, agent runtime architecture, and customer deployment stories. Why it matters: the center of gravity is now reliability and operational trust."
           },
           {
-            "headline": "China’s model competition is accelerating through open releases and distribution",
+            "headline": "China\u2019s model competition is accelerating through open releases and distribution",
             "url": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/",
             "note": "Reuters and CNBC both describe intensified launch cadence and commercialization tactics around major Chinese model families. Why it matters: pricing pressure and rapid iteration are becoming structural, not cyclical."
           }
@@ -284,7 +567,7 @@
           {
             "headline": "Google expands Gemini impact in real workflows, from Sheets to healthcare",
             "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
-            "note": "Google’s workspace update plus new health initiative in rural Australia shows AI moving deeper into domain-specific operations. Corroboration: https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/. Why it matters: value is increasingly measured by embedded task outcomes, not standalone model demos.",
+            "note": "Google\u2019s workspace update plus new health initiative in rural Australia shows AI moving deeper into domain-specific operations. Corroboration: https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/. Why it matters: value is increasingly measured by embedded task outcomes, not standalone model demos.",
             "badges": [
               "US",
               "Product",
@@ -294,7 +577,7 @@
           {
             "headline": "Reuters: Alibaba unveils Qwen 3.5 for agentic tasks",
             "url": "https://www.reuters.com/world/china/alibaba-unveils-new-qwen35-model-agentic-ai-era-2026-02-16/",
-            "note": "Reuters reports Alibaba positioning Qwen 3.5 around autonomous task execution and improved cost/performance. Corroboration: broader regional momentum covered by CNBC’s China model rollout analysis. Why it matters: China’s frontier competition is now strongly tied to deployability and economics.",
+            "note": "Reuters reports Alibaba positioning Qwen 3.5 around autonomous task execution and improved cost/performance. Corroboration: broader regional momentum covered by CNBC\u2019s China model rollout analysis. Why it matters: China\u2019s frontier competition is now strongly tied to deployability and economics.",
             "badges": [
               "China",
               "Models",
@@ -374,7 +657,7 @@
           {
             "headline": "Set up promptfoo eval gate for Daily-AI publish quality",
             "url": "https://github.com/promptfoo/promptfoo",
-            "note": "Run local checks for section counts, duplicate headlines, stale links, and missing “why-it-matters” language before every push."
+            "note": "Run local checks for section counts, duplicate headlines, stale links, and missing \u201cwhy-it-matters\u201d language before every push."
           },
           {
             "headline": "Prototype page-agent for competitor/site intelligence capture",
@@ -404,7 +687,7 @@
           {
             "headline": "NVIDIA GTC 2026 agenda watch for infra planning",
             "url": "https://www.nvidia.com/gtc/",
-            "note": "Pre-conference material signals heavy focus on inference, agentic systems, and AI factories — useful for prioritizing near-term infrastructure bets."
+            "note": "Pre-conference material signals heavy focus on inference, agentic systems, and AI factories \u2014 useful for prioritizing near-term infrastructure bets."
           }
         ]
       },
@@ -419,12 +702,12 @@
           {
             "headline": "Create a China/US balance meter in the generator",
             "url": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/",
-            "note": "Auto-score each draft for regional diversity so coverage doesn’t drift into a single-ecosystem narrative."
+            "note": "Auto-score each draft for regional diversity so coverage doesn\u2019t drift into a single-ecosystem narrative."
           },
           {
             "headline": "Build a niche angle block for luxury brass signage applications",
             "url": "https://github.com/msitarzewski/agency-agents",
-            "note": "Append one daily tactical paragraph translating AI workflow trends into lead-gen/content ops ideas for Trade Etching Direct’s premium brochure project."
+            "note": "Append one daily tactical paragraph translating AI workflow trends into lead-gen/content ops ideas for Trade Etching Direct\u2019s premium brochure project."
           }
         ]
       }
@@ -468,7 +751,7 @@
         "url": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/"
       },
       {
-        "name": "CNBC: China’s 5 new AI models",
+        "name": "CNBC: China\u2019s 5 new AI models",
         "url": "https://www.cnbc.com/2026/03/01/forget-deepseek-of-chinas-5-new-ai-models-ubs-prefers-this-one.html"
       },
       {
@@ -483,8 +766,8 @@
   },
   {
     "date": "2026-03-11 PM",
-    "title": "Tooling Upgrade Pass — Skills-First Research Pipeline",
-    "summary": "Today’s pass focused on operational upgrades: tighter search tooling, safer skill intake, and better job orchestration. The key shift is from one-off prompting to repeatable jobs with explicit ownership, review gates, and source discipline.",
+    "title": "Tooling Upgrade Pass \u2014 Skills-First Research Pipeline",
+    "summary": "Today\u2019s pass focused on operational upgrades: tighter search tooling, safer skill intake, and better job orchestration. The key shift is from one-off prompting to repeatable jobs with explicit ownership, review gates, and source discipline.",
     "tags": [
       "openclaw",
       "workflows",
@@ -599,8 +882,8 @@
   },
   {
     "date": "2026-03-11",
-    "title": "Daily AI Update — Shipping-Grade Agents, China Model Scale, and Local-First Execution",
-    "summary": "Today’s signal is clear: AI stacks are maturing from demo outputs into reliability infrastructure. US labs are publishing control/eval primitives, China players are racing model scale and deployment, and open-source momentum remains strongest where teams can run workflows locally and audit behavior end-to-end.",
+    "title": "Daily AI Update \u2014 Shipping-Grade Agents, China Model Scale, and Local-First Execution",
+    "summary": "Today\u2019s signal is clear: AI stacks are maturing from demo outputs into reliability infrastructure. US labs are publishing control/eval primitives, China players are racing model scale and deployment, and open-source momentum remains strongest where teams can run workflows locally and audit behavior end-to-end.",
     "tags": [
       "us-labs",
       "china",
@@ -613,15 +896,15 @@
     "stats": [
       {
         "value": "1T+ params",
-        "text": "Alibaba’s Qwen3-Max reported at trillion-plus scale, reinforcing that frontier competition now spans both capability and deployment economics."
+        "text": "Alibaba\u2019s Qwen3-Max reported at trillion-plus scale, reinforcing that frontier competition now spans both capability and deployment economics."
       },
       {
         "value": "25% Fortune 500",
-        "text": "Promptfoo’s previously disclosed enterprise penetration is a strong indicator that eval/security gates are now standard procurement requirements."
+        "text": "Promptfoo\u2019s previously disclosed enterprise penetration is a strong indicator that eval/security gates are now standard procurement requirements."
       },
       {
         "value": "6 repos tracked",
-        "text": "Today’s hot GitHub list clusters around agent orchestration, memory, and production workflow glue rather than pure model demos."
+        "text": "Today\u2019s hot GitHub list clusters around agent orchestration, memory, and production workflow glue rather than pure model demos."
       }
     ],
     "sections": [
@@ -636,12 +919,12 @@
           {
             "headline": "Enterprise eval is now mandatory infra",
             "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
-            "note": "OpenAI’s Promptfoo move highlights that red-teaming and regression testing are no longer optional add-ons; they are shipping gates for customer trust."
+            "note": "OpenAI\u2019s Promptfoo move highlights that red-teaming and regression testing are no longer optional add-ons; they are shipping gates for customer trust."
           },
           {
             "headline": "Agent workflow repos continue compounding",
             "url": "https://github.com/OpenHands/OpenHands",
-            "note": "OpenHands and adjacent projects keep gaining adoption because they solve practical loops (plan → act → verify), not just prompt quality."
+            "note": "OpenHands and adjacent projects keep gaining adoption because they solve practical loops (plan \u2192 act \u2192 verify), not just prompt quality."
           }
         ]
       },
@@ -678,7 +961,7 @@
             ]
           },
           {
-            "headline": "Alibaba’s Qwen3-Max raises China frontier bar",
+            "headline": "Alibaba\u2019s Qwen3-Max raises China frontier bar",
             "url": "https://www.reuters.com/world/china/alibaba-launches-qwen3-max-ai-model-with-more-than-trillion-parameters-2025-09-24/",
             "note": "Corroboration: Reuters coverage plus Alibaba/Qwen channels show continued high-velocity model competition in China and stronger domestic ecosystem pull.",
             "badges": [
@@ -809,7 +1092,7 @@
           {
             "headline": "Prototype China/US balanced coverage alerts",
             "url": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/",
-            "note": "Run a daily fetch that enforces regional balance so the digest doesn’t drift into single-ecosystem bias."
+            "note": "Run a daily fetch that enforces regional balance so the digest doesn\u2019t drift into single-ecosystem bias."
           }
         ]
       }
@@ -966,8 +1249,8 @@
             "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
             "note": "OpenAI's move suggests eval and security tooling is becoming core product infrastructure, not an add-on.",
             "badges": [
-              "🆕 NEW",
-              "🔥 HOT",
+              "\ud83c\udd95 NEW",
+              "\ud83d\udd25 HOT",
               "US"
             ]
           },
@@ -976,8 +1259,8 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence",
             "note": "A strong signal that AI coding assistants are moving from generation into quality gates and review automation.",
             "badges": [
-              "🆕 NEW",
-              "🔥 HOT",
+              "\ud83c\udd95 NEW",
+              "\ud83d\udd25 HOT",
               "US"
             ]
           },
@@ -986,8 +1269,8 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence",
             "note": "Ventuno Q combines 16GB RAM with a 40 TOPS NPU to target autonomous robotics and sensor-driven edge workloads.",
             "badges": [
-              "🆕 NEW",
-              "🏠 LOCAL"
+              "\ud83c\udd95 NEW",
+              "\ud83c\udfe0 LOCAL"
             ]
           },
           {
@@ -995,8 +1278,8 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence",
             "note": "Enterprise copilots may increasingly become orchestration shells over multiple model providers.",
             "badges": [
-              "🆕 NEW",
-              "☁️ API"
+              "\ud83c\udd95 NEW",
+              "\u2601\ufe0f API"
             ]
           },
           {
@@ -1004,7 +1287,7 @@
             "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
             "note": "One of the cleaner public case studies on compensation models for generative media businesses.",
             "badges": [
-              "🆕 NEW",
+              "\ud83c\udd95 NEW",
               "Creator"
             ]
           }
@@ -1036,7 +1319,7 @@
           {
             "headline": "666ghj/MiroFish",
             "url": "https://github.com/666ghj/MiroFish",
-            "note": "+5,022/week — strong momentum for non-transformer inference patterns."
+            "note": "+5,022/week \u2014 strong momentum for non-transformer inference patterns."
           },
           {
             "headline": "virattt/ai-hedge-fund",
@@ -1066,7 +1349,7 @@
         ]
       },
       {
-        "name": "Run It Locally 🏠 LOCAL",
+        "name": "Run It Locally \ud83c\udfe0 LOCAL",
         "items": [
           {
             "headline": "Ventuno Q class edge builds",
@@ -1086,7 +1369,7 @@
         ]
       },
       {
-        "name": "API Tools ☁️ API",
+        "name": "API Tools \u2601\ufe0f API",
         "items": [
           {
             "headline": "Promptfoo ecosystem",
