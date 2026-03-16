@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-03-16",
+    "title": "Daily AI Update — Superpowers Hits 86K Stars, Anthropic's Free Usage Surge, and OpenAI's GitHub Challenger",
+    "summary": "Today's signal is distribution warfare: Superpowers surges to 86K+ stars as the TDD-enforcing agent framework becomes the de facto standard for quality-conscious AI development. Anthropic fires back with a major March 2026 free usage promotion — significantly expanding limits for free and Pro users — in a bid to close the distribution gap against ChatGPT's 500M+ users. Meanwhile, OpenAI is secretly building a GitHub competitor, and the model lineup gets even more confusing with GPT-5.4 replacing 5.1.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "86K+ stars",
+        "text": "Superpowers hits 86,524 stars — adding ~4,500 in 24h — now the #2 trending repo as TDD methodology becomes non-negotiable for enterprise AI coding."
+      },
+      {
+        "value": "500M+ users",
+        "text": "ChatGPT's massive user base pressures Anthropic to expand free tier — March 2026 promotion significantly boosts free message limits to compete."
+      },
+      {
+        "value": "10 msgs/5hrs",
+        "text": "Free ChatGPT tier documented limit: 10 GPT-5.3 messages every 5 hours, then switches to mini model — driving users toward paid plans."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "Superpowers hits 86.5K stars, TDD methodology goes mainstream",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Jesse Vincent's framework now adding ~1,800 stars/day. The 7-phase workflow (Brainstorm → Spec → Plan → TDD → Subagent → Review → Finalize) is being adopted by enterprise teams that previously struggled with AI code quality."
+          },
+          {
+            "headline": "Anthropic March 2026 promotion expands free usage significantly",
+            "url": "https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion",
+            "note": "Free users get significantly more messages; Pro users see expanded caps. Promotion includes access to Claude's most capable model during the window. Anthropic has no default distribution channel — no OS, no productivity bundle — so they're betting on product quality to convert users."
+          },
+          {
+            "headline": "OpenAI building GitHub competitor — reports",
+            "url": "https://en.wikipedia.org/wiki/OpenAI",
+            "note": "March 2026 reports indicate OpenAI is developing a collaborative software development platform to compete with GitHub and GitLab. Would leverage existing developer relationships from Codex/Cursor."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "GPT-5.4 replaces GPT-5.1 in ChatGPT lineup",
+            "url": "https://en.wikipedia.org/wiki/ChatGPT",
+            "note": "GPT-5.1 models retired in March 2026. Existing conversations automatically migrated to GPT-5.3 Instant, GPT-5.4 Thinking, or GPT-5.4 Pro. Model lineup increasingly confusing with multiple tiers.",
+            "badges": [
+              "US",
+              "Models",
+              "OpenAI"
+            ]
+          },
+          {
+            "headline": "Anthropic expands free tier in aggressive growth push",
+            "url": "https://www.webanditnews.com/2026/03/15/anthropics-march-2026-claude-promotion-what-you-need-to-know-about-the-free-usage-boost/",
+            "note": "March 2026 promotion removes friction of usage caps. Free users can now test Claude on actual work tasks, not toy examples. Smart trial-period play for enterprise evaluation.",
+            "badges": [
+              "US",
+              "Growth",
+              "Anthropic"
+            ]
+          },
+          {
+            "headline": "OpenAI reportedly developing GitHub competitor",
+            "url": "https://en.wikipedia.org/wiki/OpenAI",
+            "note": "Would represent major expansion beyond model API into developer platform territory. Leverages Codex, Cursor relationships. Could reshape how AI-native development teams work.",
+            "badges": [
+              "US",
+              "Platform",
+              "OpenAI"
+            ]
+          },
+          {
+            "headline": "Lightpanda headless browser hits 19K stars",
+            "url": "https://github.com/lightpanda-io/browser",
+            "note": "AI-designed headless browser gaining rapid adoption. 1,335 stars today. Zig-built for performance. Targets automation and AI testing workflows.",
+            "badges": [
+              "US",
+              "Tools",
+              "GitHub"
+            ]
+          },
+          {
+            "headline": "OpenViking context database hits 12.8K stars",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "ByteDance's open-source context database for AI Agents (including OpenClaw). 1,870 stars today. Unifies memory, resources, and skills management through filesystem paradigm.",
+            "badges": [
+              "China",
+              "Open Source",
+              "Infrastructure"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "86.5K stars — methodology-first framework enforcing TDD. Works across Claude Code, Cursor, Codex, OpenCode, Gemini CLI, Qwen Code, Goose CLI, Auggie."
+          },
+          {
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "27.8K stars — swarm intelligence engine maintains strong momentum. 2,782 stars today. Popular for non-traditional prediction architectures."
+          },
+          {
+            "headline": "volcengine/OpenViking",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "12.8K stars — ByteDance's context database for AI agents. Gaining traction as memory/resource management becomes critical for long-running agentic workflows."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "86.5K stars, #2 trending — methodology enforcement continues runaway growth. Production case studies show zero post-deployment issues."
+          },
+          {
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "27.8K stars — swarm intelligence engine dominates alternative AI pattern discussions."
+          },
+          {
+            "headline": "lightpanda-io/browser",
+            "url": "https://github.com/lightpanda-io/browser",
+            "note": "19K stars — AI-optimized headless browser. 1,335 stars today. Zig architecture targets performance-critical automation."
+          },
+          {
+            "headline": "p-e-w/heretic",
+            "url": "https://github.com/p-e-w/heretic",
+            "note": "14.8K stars — fully automatic censorship removal for language models. 1,062 stars today. Relevant for open-model deployment."
+          },
+          {
+            "headline": "abhigyanpatwari/GitNexus",
+            "url": "https://github.com/abhigyanpatwari/GitNexus",
+            "note": "14.6K stars — client-side knowledge graph for code. Graph RAG Agent runs entirely in browser. 451 stars today."
+          },
+          {
+            "headline": "volcengine/OpenViking",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "12.8K stars — context database for agents. 1,870 stars today. File-system paradigm for hierarchical context delivery."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Install Superpowers and enforce TDD on your next Claude Code project",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Run /superpowers:brainstorm first — forces requirement clarification before ANY code. Track test coverage jump from 0-30% to 85-95%."
+          },
+          {
+            "headline": "Test Lightpanda headless browser for AI automation",
+            "url": "https://github.com/lightpanda-io/browser",
+            "note": "Zig-built headless browser designed specifically for AI and automation. Lower resource usage than Playwright for simple tasks."
+          },
+          {
+            "headline": "Deploy OpenViking for context management in OpenClaw",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "ByteDance's context database integrates with OpenClaw. Unifies memory, resources, and skills through filesystem paradigm."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "Claude Code Review API",
+            "url": "https://claude.com/blog/code-review",
+            "note": "Multi-agent code review at $15-25/PR. With Superpowers methodology, code entering review has 85-95% test coverage."
+          },
+          {
+            "headline": "GPT-5.4 lineup confusion",
+            "url": "https://www.datastudios.org/post/chatgpt-5-4-free-in-march-2026-what-free-users-actually-get-what-is-not-included-and-why-the-mode",
+            "note": "Free users get GPT-5.3 (10 msgs/5hrs), not GPT-5.4. GPT-5.4 Pro reserved for higher tiers. Model naming increasingly complex."
+          },
+          {
+            "headline": "OpenAI GitHub competitor (rumored)",
+            "url": "https://en.wikipedia.org/wiki/OpenAI",
+            "note": "If true, would leverage existing Codex/Cursor developer relationships. Could reshape collaborative AI-assisted development."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Benchmark free tier usage: Claude vs ChatGPT",
+            "url": "https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion",
+            "note": "During Anthropic's March promotion, run identical tasks on both free tiers. Track: response quality, rate limits, conversation continuity."
+          },
+          {
+            "headline": "Test Lightpanda vs Playwright for simple automation",
+            "url": "https://github.com/lightpanda-io/browser",
+            "note": "Compare resource usage and latency for basic scraping/automation tasks. Could reduce infrastructure costs for Daily-AI content gathering."
+          },
+          {
+            "headline": "Evaluate OpenViking for Daily-AI context management",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "Replace manual memory tracking with structured context database. Track recurring topics across posts to reduce repetition."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Run Superpowers on one Daily-AI related coding task — enforce TDD and measure test coverage. 2) Compare free Claude vs ChatGPT on identical prompts during promotion window. 3) Benchmark Lightpanda for simple scraping tasks against current Playwright setup.",
+    "sources": [
+      {
+        "name": "GitHub Trending (March 16, 2026)",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "Wikipedia: ChatGPT",
+        "url": "https://en.wikipedia.org/wiki/ChatGPT"
+      },
+      {
+        "name": "Wikipedia: OpenAI",
+        "url": "https://en.wikipedia.org/wiki/OpenAI"
+      },
+      {
+        "name": "WebAndITNews: Anthropic March Promotion",
+        "url": "https://www.webanditnews.com/2026/03/15/anthropics-march-2026-claude-promotion-what-you-need-to-know-about-the-free-usage-boost/"
+      },
+      {
+        "name": "DataStudios: GPT-5.4 Free Tier Analysis",
+        "url": "https://www.datastudios.org/post/chatgpt-5-4-free-in-march-2026-what-free-users-actually-get-what-is-not-included-and-why-the-mode"
+      },
+      {
+        "name": "Claude Support: March 2026 Promotion",
+        "url": "https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion"
+      }
+    ]
+  },
+  {
     "date": "2026-03-15",
     "title": "Daily AI Update — Superpowers Hits 82K Stars, Anthropic's Revenue Explodes, and the TDD Renaissance",
     "summary": "Today's signal is a methodology shift: Superpowers just hit 82K stars by enforcing test-driven development on AI coding agents, proving that the market wants senior-engineer discipline from AI, not just speed. Meanwhile, Anthropic's coding-agent revenue hit .5B — doubling in months and on track to outpace OpenAI by year-end — while the Pentagon battle continues and China's Moonshot AI eyes an $18B valuation.",
