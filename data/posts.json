@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-03-17",
+    "title": "Daily AI Update — Superpowers Hits 89K, NVIDIA Launches Enterprise Agent Platform, and OpenClaw at GTC",
+    "summary": "Today's signal is enterprise agentic AI going mainstream: Superpowers rockets to 89K+ stars as the TDD enforcement framework becomes the operating system for quality-conscious AI development. NVIDIA launches its enterprise AI agent platform at GTC 2026 with 17 major adopters including Adobe, Salesforce, and SAP — a major validation of the agentic workflow pattern. OpenClaw gets featured spotlight at GTC, while China's AI players continue driving token prices to 10-20x below US equivalents, fundamentally reshaping the economics of AI inference.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "89K+ stars",
+        "text": "Superpowers hits 89,271 stars — adding ~2,700 in 24h — now firmly established as the #1-2 trending repo as TDD methodology becomes non-negotiable for enterprise AI coding."
+      },
+      {
+        "value": "17 enterprise adopters",
+        "text": "NVIDIA Agent Toolkit launches at GTC 2026 with Adobe, Salesforce, SAP, and 14 others — major validation that autonomous agents are ready for production enterprise workflows."
+      },
+      {
+        "value": "10-20x cheaper",
+        "text": "Chinese AI models (DeepSeek, Qwen, Zhipu) now cost 10-20x less than comparable US services — reshaping global AI economics and forcing API pricing pressure."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "Superpowers hits 89K stars, TDD methodology now enterprise standard",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Jesse Vincent's framework now adding ~2,700 stars/day. The 7-phase workflow (Brainstorm → Spec → Plan → TDD → Subagent → Review → Finalize) is being adopted by enterprise teams that previously struggled with AI code quality. 7,054 forks and growing."
+          },
+          {
+            "headline": "NVIDIA Agent Toolkit launches at GTC with 17 enterprise partners",
+            "url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+            "note": "Major enterprise push for agentic AI. Adobe, Salesforce, SAP, and 14 others sign on day one. Jensen Huang's keynote emphasized the shift from prompt-based tools to autonomous agents that reason, plan, and act."
+          },
+          {
+            "headline": "OpenClaw featured at NVIDIA GTC 2026",
+            "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/",
+            "note": "OpenClaw creator Peter Steinberger featured in GTC preshow. CNET reports OpenClaw has 'absolutely taken over the AI world this year.' Strong validation for the autonomous agent operating system approach."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "NVIDIA launches enterprise AI agent platform at GTC 2026",
+            "url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+            "note": "Agent Toolkit signs 17 enterprise adopters including Adobe, Salesforce, SAP. Represents major shift from AI as chat interface to AI as autonomous workflow executor.",
+            "badges": [
+              "US",
+              "Enterprise",
+              "NVIDIA"
+            ]
+          },
+          {
+            "headline": "OpenClaw takes spotlight at NVIDIA GTC",
+            "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/",
+            "note": "Peter Steinberger featured in GTC preshow. CNET: 'If there's one thing that's absolutely taken over the AI world this year, it's OpenClaw.'",
+            "badges": [
+              "US",
+              "Open Source",
+              "OpenClaw"
+            ]
+          },
+          {
+            "headline": "Alibaba CEO takes helm of new AI business group",
+            "url": "https://www.thestar.com.my/tech/tech-news/2026/03/16/alibaba-ceo-takes-helm-of-new-ai-focused-business-group",
+            "note": "Follows departure of Qwen AI division head Lin Junyang — third senior Qwen executive to exit this year. Forms Alibaba Token Hub for enterprise AI scaling.",
+            "badges": [
+              "China",
+              "Business",
+              "Alibaba"
+            ]
+          },
+          {
+            "headline": "China AI token prices 10-20x below US",
+            "url": "https://www.analyticsinsight.net/news/alibaba-forms-alibaba-token-hub-to-scale-enterprise-ai-and-token-revenue",
+            "note": "Leading Chinese models (DeepSeek, Qwen, Zhipu's ChatGLM) cost dramatically less than US equivalents. Intense domestic competition driving prices down while raising profitability questions.",
+            "badges": [
+              "China",
+              "Pricing",
+              "Economics"
+            ]
+          },
+          {
+            "headline": "MiroFish hits 30K stars, swarm intelligence surges",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "3,260 stars today for the swarm intelligence engine. March 7th it hit #1 on GitHub global trending, surpassing OpenAI, Google, and Microsoft projects.",
+            "badges": [
+              "US",
+              "Open Source",
+              "GitHub"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "89.3K stars — methodology-first framework enforcing TDD. Works across Claude Code, Cursor, Codex, OpenCode, Gemini CLI, Qwen Code, Goose CLI, Auggie."
+          },
+          {
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "30.6K stars — swarm intelligence engine maintains strong momentum. 3,260 stars today. Popular for non-traditional prediction architectures."
+          },
+          {
+            "headline": "volcengine/OpenViking",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "14.4K stars — ByteDance's context database for AI agents. 2,012 stars today. Unifies memory, resources, and skills management through filesystem paradigm."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "89.3K stars, #1-2 trending — TDD methodology continues runaway growth. 7,054 forks. Production case studies show zero post-deployment issues."
+          },
+          {
+            "headline": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "note": "37.1K stars — Claude Code plugin that captures everything during coding sessions, compresses with AI, and injects context back into future sessions. 1,045 stars today."
+          },
+          {
+            "headline": "lightpanda-io/browser",
+            "url": "https://github.com/lightpanda-io/browser",
+            "note": "20.4K stars — AI-optimized headless browser. 2,086 stars today. Zig architecture targets performance-critical automation."
+          },
+          {
+            "headline": "abhigyanpatwari/GitNexus",
+            "url": "https://github.com/abhigyanpatwari/GitNexus",
+            "note": "15.8K stars — client-side knowledge graph for code. Graph RAG Agent runs entirely in browser. 1,860 stars today."
+          },
+          {
+            "headline": "volcengine/OpenViking",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "14.4K stars — context database for agents. 2,012 stars today. File-system paradigm for hierarchical context delivery."
+          },
+          {
+            "headline": "langchain-ai/deepagents",
+            "url": "https://github.com/langchain-ai/deepagents",
+            "note": "13.2K stars — agent harness built with LangChain and LangGraph. Planning tool, filesystem backend, subagent spawning. 1,026 stars today."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Install Superpowers and enforce TDD on your next Claude Code project",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Run /superpowers:brainstorm first — forces requirement clarification before ANY code. Track test coverage jump from 0-30% to 85-95%."
+          },
+          {
+            "headline": "Test Claude-mem for session continuity",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "note": "Install as Claude Code plugin. Automatically captures and compresses context from coding sessions, injects relevant memory into future sessions. Great for multi-file refactors."
+          },
+          {
+            "headline": "Deploy OpenViking for context management in OpenClaw",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "ByteDance's context database integrates with OpenClaw. Unifies memory, resources, and skills through filesystem paradigm for hierarchical context delivery."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "NVIDIA Agent Toolkit for enterprise",
+            "url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+            "note": "17 launch partners. Adobe, Salesforce, SAP. Day-one enterprise adoption signals production-ready agent infrastructure from NVIDIA."
+          },
+          {
+            "headline": "China API pricing pressure intensifies",
+            "url": "https://www.analyticsinsight.net/news/alibaba-forms-alibaba-token-hub-to-scale-enterprise-ai-and-token-revenue",
+            "note": "DeepSeek, Qwen, Zhipu models 10-20x cheaper than US. This fundamentally reshapes API economics and forces OpenAI/Anthropic to consider pricing responses."
+          },
+          {
+            "headline": "Alibaba Token Hub launches",
+            "url": "https://www.analyticsinsight.net/news/alibaba-forms-alibaba-token-hub-to-scale-enterprise-ai-and-token-revenue",
+            "note": "New business group to scale enterprise AI and token revenue. Follows executive reshuffle at Qwen division."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Benchmark Chinese API pricing vs OpenAI/Anthropic for identical tasks",
+            "url": "https://www.analyticsinsight.net/news/alibaba-forms-alibaba-token-hub-to-scale-enterprise-ai-and-token-revenue",
+            "note": "Run identical coding and reasoning tasks on DeepSeek/Qwen vs Claude/GPT. Track quality, latency, and cost at scale. The 10-20x price difference is compelling for high-volume workloads."
+          },
+          {
+            "headline": "Evaluate NVIDIA Agent Toolkit for enterprise OpenClaw deployments",
+            "url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+            "note": "With 17 enterprise adopters, NVIDIA's toolkit signals production-ready patterns. Test for multi-agent orchestration, monitoring, and compliance requirements."
+          },
+          {
+            "headline": "Integrate claude-mem for Daily-AI research continuity",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "note": "Use memory plugin to track recurring topics across Daily-AI posts. Reduce repetition, surface fresh angles automatically based on prior session context."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Run Superpowers on one Daily-AI related coding task — enforce TDD and measure test coverage. 2) Benchmark DeepSeek API pricing against Claude for high-volume tasks. 3) Install claude-mem and test context retention across Daily-AI research sessions.",
+    "sources": [
+      {
+        "name": "GitHub Trending (March 17, 2026)",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "VentureBeat: NVIDIA Agent Platform",
+        "url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among"
+      },
+      {
+        "name": "CNET: OpenClaw at GTC",
+        "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/"
+      },
+      {
+        "name": "The Star: Alibaba CEO AI group",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/03/16/alibaba-ceo-takes-helm-of-new-ai-focused-business-group"
+      },
+      {
+        "name": "Analytics Insight: Alibaba Token Hub",
+        "url": "https://www.analyticsinsight.net/news/alibaba-forms-alibaba-token-hub-to-scale-enterprise-ai-and-token-revenue"
+      },
+      {
+        "name": "NVIDIA Blog: GTC 2026",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+      }
+    ]
+  },
+  {
     "date": "2026-03-16",
     "title": "Daily AI Update — Superpowers Hits 86K Stars, Anthropic's Free Usage Surge, and OpenAI's GitHub Challenger",
     "summary": "Today's signal is distribution warfare: Superpowers surges to 86K+ stars as the TDD-enforcing agent framework becomes the de facto standard for quality-conscious AI development. Anthropic fires back with a major March 2026 free usage promotion — significantly expanding limits for free and Pro users — in a bid to close the distribution gap against ChatGPT's 500M+ users. Meanwhile, OpenAI is secretly building a GitHub competitor, and the model lineup gets even more confusing with GPT-5.4 replacing 5.1.",
