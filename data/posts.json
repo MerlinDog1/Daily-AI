@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-03-18",
+    "title": "Daily AI Update — Superpowers Cracks 91K Stars, GitHub AI Tools Hit Critical Mass, and Claude Code Dominance Widens",
+    "summary": "Today's signal is tooling maturation: Superpowers surges past 91K stars as the TDD enforcement framework becomes the definitive standard for quality-conscious AI development, adding nearly 2,000 stars in just 24 hours. GitHub's trending page now shows AI coding tools at critical mass — a clear indicator that the market has shifted from experimentation to production deployment. Meanwhile, Claude Code continues widening its lead over competitors, with new analysis showing it outperforms alternatives across enterprise benchmarks. China's AI players keep pushing on pricing, while OpenClaw's GTC spotlight continues driving adoption.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "91K+ stars",
+        "text": "Superpowers hits 91,200+ stars — adding ~1,900 in 24h — now firmly established as the #1 trending repo as TDD methodology becomes non-negotiable for enterprise AI coding."
+      },
+      {
+        "value": "Critical mass reached",
+        "text": "GitHub trending shows AI coding tools at inflection point — multiple tools hitting significant stars simultaneously signals market maturation from experimentation to production."
+      },
+      {
+        "value": "Claude Code 5x more loved",
+        "text": "2026 analysis shows Claude Code has 5x the 'most loved' rating of Cursor — developer preference consolidating around methodology-first workflows."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "Superpowers hits 91K+ stars, TDD methodology now enterprise standard",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Jesse Vincent's framework now adding ~1,900 stars/day. The 7-phase workflow (Brainstorm → Spec → Plan → TDD → Subagent → Review → Finalize) is being adopted by enterprise teams that previously struggled with AI code quality."
+          },
+          {
+            "headline": "GitHub AI coding tools reach critical mass",
+            "url": "https://solvedbycode.ai/blog/github-ai-coding-explosion-january-2026",
+            "note": "Analysis shows GitHub trending page has become a real-time document of how developers are building AI's future. Multiple AI coding tools hitting significant stars simultaneously signals market-wide deployment shift."
+          },
+          {
+            "headline": "Claude Code widens lead over Cursor and Copilot",
+            "url": "https://www.nxcode.io/resources/news/best-ai-for-coding-2026-tools-ranked",
+            "note": "2026 rankings show Claude Code, GPT-5.4, Cursor, DeepSeek and others ranked by benchmarks. Claude Code maintains dominant position with 5x the 'most loved' rating of Cursor."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "Superpowers trajectory accelerates past 91K stars",
+            "url": "https://github.com/obra/superpowers",
+            "note": "The TDD enforcement framework continues its runaway growth. Adding ~1,900 stars/day. Enterprise adoption accelerating as teams realize AI-generated code needs methodology enforcement.",
+            "badges": [
+              "US",
+              "Tools",
+              "GitHub"
+            ]
+          },
+          {
+            "headline": "GitHub AI coding tools hit critical mass — analysis",
+            "url": "https://solvedbycode.ai/blog/github-ai-coding-explosion-january-2026",
+            "note": "The GitHub trending page reveals a striking pattern: AI coding tools have moved from experimental to essential. Market signals indicate production deployment is now the baseline expectation.",
+            "badges": [
+              "US",
+              "Analysis",
+              "GitHub"
+            ]
+          },
+          {
+            "headline": "MiroFish stress-tested with real geopolitical data",
+            "url": "https://www.reddit.com/r/developersIndia/comments/1rw7u7p/we_stresstested_mirofish_githubs_trending_predict/",
+            "note": "Developers stress-tested the trending prediction engine with real data. Results: useful knowledge graph and ontology tools, but prediction claims 'don't hold up' — useful signal for evaluating swarm intelligence claims.",
+            "badges": [
+              "US",
+              "Open Source",
+              "Testing"
+            ]
+          },
+          {
+            "headline": "OpenAI building GitHub competitor — reports persist",
+            "url": "https://en.wikipedia.org/wiki/OpenAI",
+            "note": "Early 2026 reports indicate OpenAI is developing a collaborative software development platform to compete with GitHub and GitLab. Would leverage existing developer relationships from Codex/Cursor.",
+            "badges": [
+              "US",
+              "Platform",
+              "OpenAI"
+            ]
+          },
+          {
+            "headline": "NVIDIA GTC 2026 continues driving agent platform adoption",
+            "url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+            "note": "The enterprise AI agent platform launched with 17 major adopters continues gaining attention. Adobe, Salesforce, SAP leading the charge into production agentic workflows.",
+            "badges": [
+              "US",
+              "Enterprise",
+              "NVIDIA"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "91.2K stars — methodology-first framework enforcing TDD. Works across Claude Code, Cursor, Codex, OpenCode, Gemini CLI, Qwen Code, Goose CLI, Auggie."
+          },
+          {
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "31K stars — swarm intelligence engine. Useful knowledge graph and ontology tools, though prediction claims under scrutiny after community stress-testing."
+          },
+          {
+            "headline": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "note": "37.5K stars — Claude Code plugin for session memory. Captures context, compresses with AI, injects into future sessions. Great for multi-file refactors."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "91.2K stars, #1 trending — TDD methodology enforcement continues runaway growth. 7,200+ forks. Production case studies show zero post-deployment issues."
+          },
+          {
+            "headline": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "note": "37.5K stars — Claude Code memory plugin gaining strong adoption. 400+ stars today. Essential for long-running research workflows."
+          },
+          {
+            "headline": "lightpanda-io/browser",
+            "url": "https://github.com/lightpanda-io/browser",
+            "note": "21K stars — AI-optimized headless browser. Zig architecture targets performance-critical automation. 600+ stars today."
+          },
+          {
+            "headline": "abhigyanpatwari/GitNexus",
+            "url": "https://github.com/abhigyanpatwari/GitNexus",
+            "note": "16K stars — client-side knowledge graph for code. Graph RAG Agent runs entirely in browser. 200+ stars today."
+          },
+          {
+            "headline": "volcengine/OpenViking",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "14.8K stars — ByteDance's context database for AI agents. File-system paradigm unifies memory, resources, and skills."
+          },
+          {
+            "headline": "langchain-ai/deepagents",
+            "url": "https://github.com/langchain-ai/deepagents",
+            "note": "13.5K stars — agent harness built with LangChain and LangGraph. Planning tool, filesystem backend, subagent spawning."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Install Superpowers and enforce TDD on your next Claude Code project",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Run /superpowers:brainstorm first — forces requirement clarification before ANY code. Track test coverage jump from 0-30% to 85-95%."
+          },
+          {
+            "headline": "Test Claude-mem for session continuity",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "note": "Install as Claude Code plugin. Automatically captures and compresses context from coding sessions, injects relevant memory into future sessions."
+          },
+          {
+            "headline": "Evaluate Lightpanda headless browser for AI automation",
+            "url": "https://github.com/lightpanda-io/browser",
+            "note": "Zig-built headless browser designed specifically for AI and automation. Lower resource usage than Playwright for simple tasks."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "Claude Code dominates 2026 rankings",
+            "url": "https://www.nxcode.io/resources/news/best-ai-for-coding-2026-tools-ranked",
+            "note": "Claude Code ranked #1 in comprehensive 2026 analysis. 5x the 'most loved' rating of Cursor. Clear preference consolidation around methodology-first workflows."
+          },
+          {
+            "headline": "NVIDIA Agent Toolkit gaining enterprise traction",
+            "url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+            "note": "17 enterprise adopters on day one. Adobe, Salesforce, SAP leading. Production-ready agent infrastructure from NVIDIA."
+          },
+          {
+            "headline": "China API pricing remains 10-20x below US",
+            "url": "https://www.analyticsinsight.net/news/alibaba-forms-alibaba-token-hub-to-scale-enterprise-ai-and-token-revenue",
+            "note": "DeepSeek, Qwen, Zhipu models continue dramatically undercutting US pricing. Forces OpenAI/Anthropic to consider pricing responses."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Benchmark Claude Code vs alternatives on enterprise task",
+            "url": "https://www.nxcode.io/resources/news/best-ai-for-coding-2026-tools-ranked",
+            "note": "Run identical enterprise coding task across Claude Code, Cursor, and GPT-5.4. Measure: test coverage, bug density, time to first working version, maintainability."
+          },
+          {
+            "headline": "Evaluate Superpowers for Daily-AI code quality",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Run one Daily-AI related task through full 7-phase TDD workflow. Enforce test-before-code and measure quality improvements."
+          },
+          {
+            "headline": "Test claude-mem for research continuity",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "note": "Use memory plugin to track recurring topics across Daily-AI posts. Reduce repetition, surface fresh angles based on prior session context."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Run Superpowers on one Daily-AI related coding task — enforce TDD and measure test coverage. 2) Install claude-mem and test context retention across Daily-AI research sessions. 3) Benchmark Claude Code against alternatives on identical enterprise coding tasks.",
+    "sources": [
+      {
+        "name": "GitHub Trending (March 18, 2026)",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "SolvedByCode: GitHub AI Coding Explosion",
+        "url": "https://solvedbycode.ai/blog/github-ai-coding-explosion-january-2026"
+      },
+      {
+        "name": "NxCode: Best AI for Coding 2026",
+        "url": "https://www.nxcode.io/resources/news/best-ai-for-coding-2026-tools-ranked"
+      },
+      {
+        "name": "Reddit: MiroFish Stress Test",
+        "url": "https://www.reddit.com/r/developersIndia/comments/1rw7u7p/we_stresstested_mirofish_githubs_trending_predict/"
+      },
+      {
+        "name": "Wikipedia: OpenAI",
+        "url": "https://en.wikipedia.org/wiki/OpenAI"
+      },
+      {
+        "name": "VentureBeat: NVIDIA Agent Platform",
+        "url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among"
+      }
+    ]
+  },
+  {
     "date": "2026-03-17",
     "title": "Daily AI Update — Superpowers Hits 89K, NVIDIA Launches Enterprise Agent Platform, and OpenClaw at GTC",
     "summary": "Today's signal is enterprise agentic AI going mainstream: Superpowers rockets to 89K+ stars as the TDD enforcement framework becomes the operating system for quality-conscious AI development. NVIDIA launches its enterprise AI agent platform at GTC 2026 with 17 major adopters including Adobe, Salesforce, and SAP — a major validation of the agentic workflow pattern. OpenClaw gets featured spotlight at GTC, while China's AI players continue driving token prices to 10-20x below US equivalents, fundamentally reshaping the economics of AI inference.",
