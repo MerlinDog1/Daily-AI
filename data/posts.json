@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-03-19",
+    "title": "Daily AI Update — Superpowers Hits 94K, NVIDIA Unveils NemoClaw, and Enterprise Agent Security Takes Center Stage",
+    "summary": "Today's signal is enterprise-ready agentic AI going mainstream: Superpowers rockets past 94K stars as the TDD enforcement framework solidifies its position as the definitive standard for quality-conscious AI development. NVIDIA's GTC 2026 keynote delivered major validation — Jensen Huang called OpenClaw 'the most popular open source project in the history of humanity' and unveiled NemoClaw, an enterprise-optimized version with security and privacy controls. Meanwhile, 'The Agency' repository hit 10K stars in just 7 days, and GitHub faces a record 29 million secrets leaked in 2025 — with AI-generated code contributing to the sprawl. Security is no longer optional.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "94K+ stars",
+        "text": "Superpowers hits 94,300+ stars — adding ~3,100 in 24h — now the definitive TDD enforcement framework as enterprise teams demand methodology-first AI coding workflows."
+      },
+      {
+        "value": "NemoClaw launches",
+        "text": "NVIDIA unveils NemoClaw at GTC 2026 — enterprise-optimized OpenClaw with policy enforcement, network guardrails, and privacy routing for secure internal deployment."
+      },
+      {
+        "value": "29M secrets leaked",
+        "text": "GitHub recorded 29 million leaked secrets in 2025 — AI-fuelled coding is accelerating the sprawl, with leaks from AI tools and services surging sharply."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "Superpowers hits 94.3K stars, TDD methodology now non-negotiable",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Jesse Vincent's framework now adding ~3,100 stars/day. The 7-phase workflow (Brainstorm → Spec → Plan → TDD → Subagent → Review → Finalize) is being adopted by enterprise teams that previously struggled with AI code quality. Included in Anthropic marketplace since January 2026."
+          },
+          {
+            "headline": "NVIDIA NemoClaw brings enterprise security to OpenClaw",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+            "note": "Jensen Huang announced NemoClaw at GTC 2026 — combining policy enforcement, network guardrails, and privacy routing. Called OpenClaw 'the most popular open source project in the history of humanity.' Every company needs an OpenClaw strategy."
+          },
+          {
+            "headline": "GitHub secrets sprawl: 29M leaked in 2025",
+            "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping",
+            "note": "AI-fuelled coding drives record hardcoded secrets on GitHub in 2025. Leaks from AI tools and services surged sharply. Security gates are now mandatory for any AI-assisted development workflow."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "NVIDIA Vera Rubin platform launches for agentic AI",
+            "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+            "note": "New full-stack computing platform comprising seven chips, five rack-scale systems and one supercomputer for agentic AI. Includes Vera CPU and BlueField-4 STX storage. Jensen: 'I believe computing demand has increased by 1 million times over the last few years.'",
+            "badges": [
+              "US",
+              "Hardware",
+              "NVIDIA"
+            ]
+          },
+          {
+            "headline": "Jensen: Every company needs an OpenClaw strategy",
+            "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+            "note": "In GTC keynote, Huang called OpenClaw 'the most popular open source project in the history of humanity.' Announced NVIDIA OpenShell runtime and NemoClaw stack for secure enterprise deployment.",
+            "badges": [
+              "US",
+              "Platform",
+              "OpenClaw"
+            ]
+          },
+          {
+            "headline": "'The Agency' repo hits 10K stars in 7 days",
+            "url": "https://www.prismnews.com/topics/agency-seo-growth/ai-repo-the-agency-surpasses-10k-github-stars-in-just-7-days",
+            "note": "One of the faster-rising open-source projects in recent memory. Sets off wave of discussion about whether AI tooling can genuinely replace traditional development workflows.",
+            "badges": [
+              "US",
+              "Open Source",
+              "GitHub"
+            ]
+          },
+          {
+            "headline": "NVIDIA Nemotron Coalition rallies 6 frontier model families",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-launches-nemotron-coalition-of-leading-global-ai-labs-to-advance-open-frontier-models",
+            "note": "NVIDIA expands open model ecosystem with new coalition: Nemotron (language/reasoning), Cosmos (world/vision), Isaac GR00T (robotics), Alpaymayo (autonomous driving), BioNeMo (biology), Earth-2 (climate).",
+            "badges": [
+              "US",
+              "Models",
+              "NVIDIA"
+            ]
+          },
+          {
+            "headline": "NVIDIA going to space — Vera Rubin for orbital data centers",
+            "url": "https://nvidianews.nvidia.com/news/space-computing",
+            "note": "Huang announced NVIDIA Space-1 Vera Rubin systems designed to bring AI data centers into orbit. Extends accelerated computing from Earth to space.",
+            "badges": [
+              "US",
+              "Hardware",
+              "Space"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "94.3K stars — methodology-first framework enforcing TDD. Works across Claude Code, Cursor, Codex, OpenCode, Gemini CLI, Qwen Code, Goose CLI, Auggie. Adding ~3,100 stars/day."
+          },
+          {
+            "headline": "The Agency",
+            "url": "https://github.com/TheAgencyAI/TheAgency",
+            "note": "10K+ stars in 7 days — one of fastest-rising AI repos. Discussion around AI tooling replacing traditional development workflows heating up."
+          },
+          {
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "32K+ stars — swarm intelligence engine. Maintains strong momentum for non-traditional prediction architectures."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "94.3K stars, #1 trending — TDD methodology enforcement continues runaway growth. 7,500+ forks. Production case studies show zero post-deployment issues."
+          },
+          {
+            "headline": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "note": "37.8K stars — Claude Code memory plugin gaining strong adoption. Essential for long-running research workflows."
+          },
+          {
+            "headline": "lightpanda-io/browser",
+            "url": "https://github.com/lightpanda-io/browser",
+            "note": "21.5K stars — AI-optimized headless browser. Zig architecture targets performance-critical automation."
+          },
+          {
+            "headline": "abhigyanpatwari/GitNexus",
+            "url": "https://github.com/abhigyanpatwari/GitNexus",
+            "note": "16.2K stars — client-side knowledge graph for code. Graph RAG Agent runs entirely in browser."
+          },
+          {
+            "headline": "volcengine/OpenViking",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "15K stars — ByteDance's context database for AI agents. File-system paradigm unifies memory, resources, and skills."
+          },
+          {
+            "headline": "langchain-ai/deepagents",
+            "url": "https://github.com/langchain-ai/deepagents",
+            "note": "13.8K stars — agent harness built with LangChain and LangGraph. Planning tool, filesystem backend, subagent spawning."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Install NemoClaw for secure enterprise agent deployment",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+            "note": "Evaluate NemoClaw stack with policy enforcement, network guardrails, and privacy routing for internal OpenClaw deployments requiring compliance."
+          },
+          {
+            "headline": "Test Superpowers for TDD enforcement on your next Claude Code project",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Run /superpowers:brainstorm first — forces requirement clarification before ANY code. Track test coverage jump from 0-30% to 85-95%."
+          },
+          {
+            "headline": "Add secrets scanning to your AI-assisted development workflow",
+            "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping",
+            "note": "With 29M secrets leaked in 2025, add mandatory scanning (GitGuardian, TruffleHog) to any AI coding pipeline before git push."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "NVIDIA NemoClaw enterprise security stack",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+            "note": "Policy enforcement + network guardrails + privacy routing. Designed for secure internal deployment. Could become the standard for enterprise agent governance."
+          },
+          {
+            "headline": "NVIDIA OpenShell runtime for agents",
+            "url": "https://nvidianews.nvidia.com/news/ai-agents",
+            "note": "Secure environment for running autonomous agents and open-source models like NVIDIA Nemotron. Gives enterprises governance, control, and privacy required for production."
+          },
+          {
+            "headline": "Claude Code dominates 2026 rankings",
+            "url": "https://www.nxcode.io/resources/news/best-ai-for-coding-2026-tools-ranked",
+            "note": "Claude Code ranked #1 in comprehensive 2026 analysis. 5x the 'most loved' rating of Cursor. Clear preference consolidation around methodology-first workflows."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Evaluate NemoClaw for secure OpenClaw deployment at work",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+            "note": "Request early access to NemoClaw. Test policy enforcement, network guardrails, and privacy routing for internal compliance requirements."
+          },
+          {
+            "headline": "Benchmark Superpowers TDD workflow vs current development",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Run identical feature through Superpowers 7-phase workflow vs ad-hoc coding. Track: test coverage, bug density, time to first working version."
+          },
+          {
+            "headline": "Add mandatory secrets scan to Daily-AI CI pipeline",
+            "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping",
+            "note": "With 29M secrets leaked, add TruffleHog/GitGuardian scan to Daily-AI publish pipeline. Fail build if any API keys detected."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Test Superpowers on one Daily-AI related coding task — enforce TDD and measure test coverage. 2) Request NemoClaw access for enterprise deployment evaluation. 3) Add secrets scanning to CI pipeline to prevent accidental key leakage.",
+    "sources": [
+      {
+        "name": "NVIDIA Blog: GTC 2026 Live Updates",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+      },
+      {
+        "name": "NVIDIA News: NemoClaw Announcement",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw"
+      },
+      {
+        "name": "NVIDIA News: OpenShell Runtime",
+        "url": "https://nvidianews.nvidia.com/news/ai-agents"
+      },
+      {
+        "name": "DecisionCrafters: Superpowers 94K Stars",
+        "url": "https://www.decisioncrafters.com/superpowers-transform-claude-code-senior-ai-developer/"
+      },
+      {
+        "name": "Prism News: The Agency 10K Stars",
+        "url": "https://www.prismnews.com/topics/agency-seo-growth/ai-repo-the-agency-surpasses-10k-github-stars-in-just-7-days"
+      },
+      {
+        "name": "TechRadar: 29M Secrets Leaked",
+        "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping"
+      }
+    ]
+  },
+  {
     "date": "2026-03-18",
     "title": "Daily AI Update — Superpowers Cracks 91K Stars, GitHub AI Tools Hit Critical Mass, and Claude Code Dominance Widens",
     "summary": "Today's signal is tooling maturation: Superpowers surges past 91K stars as the TDD enforcement framework becomes the definitive standard for quality-conscious AI development, adding nearly 2,000 stars in just 24 hours. GitHub's trending page now shows AI coding tools at critical mass — a clear indicator that the market has shifted from experimentation to production deployment. Meanwhile, Claude Code continues widening its lead over competitors, with new analysis showing it outperforms alternatives across enterprise benchmarks. China's AI players keep pushing on pricing, while OpenClaw's GTC spotlight continues driving adoption.",
