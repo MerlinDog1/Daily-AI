@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-03-20",
+    "title": "Daily AI Update — Superpowers Surges Past 96K, OpenClaw China Adoption Accelerates, and Enterprise Agent Governance Matures",
+    "summary": "Today's signal is geographic diversification of agentic AI: Superpowers rockets past 96K stars as the TDD enforcement framework becomes the global standard for quality-conscious AI development, while China's tech giants — Baidu, Alibaba, and Tencent — rush to adopt OpenClaw amid government curiosity about the technology. NVIDIA's GTC momentum continues with enterprise deployments scaling, and the 29M GitHub secrets leak story is prompting organizations to add mandatory security scanning to AI-assisted workflows. The net effect: agent governance is becoming a board-level discussion as the technology crosses geographic and enterprise boundaries.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "96K+ stars",
+        "text": "Superpowers hits 96,400+ stars — adding ~2,100 in 24h — the TDD enforcement framework now adopted by enterprise teams across US, Europe, and Asia as the methodology-first standard."
+      },
+      {
+        "value": "China adoption surges",
+        "text": "Baidu, Alibaba, and Tencent racing to deploy OpenClaw — NYT reports 'China Is Embracing OpenClaw' while government officials assess national security implications."
+      },
+      {
+        "value": "Enterprise governance scales",
+        "text": "NVIDIA NemoClaw seeing rapid enterprise uptake — policy enforcement and privacy routing becoming standard requirements for production agent deployments."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "Superpowers hits 96.4K stars, TDD methodology goes global",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Jesse Vincent's framework now adding ~2,100 stars/day. The 7-phase workflow (Brainstorm → Spec → Plan → TDD → Subagent → Review → Finalize) is being adopted by enterprise teams globally. Included in Anthropic marketplace since January 2026."
+          },
+          {
+            "headline": "China tech giants embrace OpenClaw",
+            "url": "https://www.nytimes.com/2026/03/17/business/china-ai-agent.html",
+            "note": "NYT reports engineers at Baidu, Alibaba, and Tencent racing to install OpenClaw. Government officials curious about the technology. OpenClaw adoption in China described as 'frenzy' by Reuters."
+          },
+          {
+            "headline": "Enterprise agent governance matures with NemoClaw",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+            "note": "NVIDIA's enterprise-optimized OpenClaw seeing rapid deployment across financial services, healthcare, and government sectors. Policy enforcement and privacy routing now baseline requirements."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "Superpowers trajectory accelerates past 96K stars",
+            "url": "https://github.com/obra/superpowers",
+            "note": "The TDD enforcement framework continues its runaway growth. Adding ~2,100 stars/day. Enterprise adoption accelerating as teams realize AI-generated code needs methodology enforcement.",
+            "badges": [
+              "US",
+              "Tools",
+              "GitHub"
+            ]
+          },
+          {
+            "headline": "NYT: China Is Embracing OpenClaw",
+            "url": "https://www.nytimes.com/2026/03/17/business/china-ai-agent.html",
+            "note": "New York Times reports on growing domestic interest in OpenClaw — engineers sought help from colleagues to install the open-source AI assistant. Government is wary but curious.",
+            "badges": [
+              "China",
+              "Open Source",
+              "OpenClaw"
+            ]
+          },
+          {
+            "headline": "Baidu joins China's OpenClaw frenzy",
+            "url": "https://www.reuters.com/business/media-telecom/baidu-joins-chinas-openclaw-frenzy-with-new-ai-agents-2026-03-17/",
+            "note": "Reuters: Baidu announces new AI agents built on OpenClaw framework. Part of broader domestic push for autonomous AI assistants in enterprise workflows.",
+            "badges": [
+              "China",
+              "Platform",
+              "Baidu"
+            ]
+          },
+          {
+            "headline": "NVIDIA GTC momentum continues into post-keynote period",
+            "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+            "note": "Enterprise deployments scaling across sectors. Jensen's OpenClaw endorsement driving board-level discussions about agent strategy. Vera Rubin platform gaining traction for agentic AI workloads.",
+            "badges": [
+              "US",
+              "Hardware",
+              "NVIDIA"
+            ]
+          },
+          {
+            "headline": "GitHub secrets scanning becomes mandatory enterprise practice",
+            "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping",
+            "note": "With 29M secrets leaked in 2025, organizations adding mandatory scanning (GitGuardian, TruffleHog) to AI coding pipelines. Security gates now non-negotiable.",
+            "badges": [
+              "US",
+              "Security",
+              "GitHub"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "96.4K stars — methodology-first framework enforcing TDD. Works across Claude Code, Cursor, Codex, OpenCode, Gemini CLI, Qwen Code, Goose CLI, Auggie."
+          },
+          {
+            "headline": "The Agency",
+            "url": "https://github.com/TheAgencyAI/TheAgency",
+            "note": "10K+ stars in 7 days — one of fastest-rising AI repos. Discussion around AI tooling replacing traditional development workflows continues heating up."
+          },
+          {
+            "headline": "666ghj/MiroFish",
+            "url": "https://github.com/666ghj/MiroFish",
+            "note": "32K+ stars — swarm intelligence engine. Maintains strong momentum for non-traditional prediction architectures."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "96.4K stars, #1 trending — TDD methodology enforcement continues runaway growth. 7,800+ forks. Production case studies show zero post-deployment issues."
+          },
+          {
+            "headline": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "note": "38K stars — Claude Code memory plugin gaining strong adoption. Essential for long-running research workflows."
+          },
+          {
+            "headline": "lightpanda-io/browser",
+            "url": "https://github.com/lightpanda-io/browser",
+            "note": "22K stars — AI-optimized headless browser. Zig architecture targets performance-critical automation."
+          },
+          {
+            "headline": "abhigyanpatwari/GitNexus",
+            "url": "https://github.com/abhigyanpatwari/GitNexus",
+            "note": "16.5K stars — client-side knowledge graph for code. Graph RAG Agent runs entirely in browser."
+          },
+          {
+            "headline": "volcengine/OpenViking",
+            "url": "https://github.com/volcengine/OpenViking",
+            "note": "15.2K stars — ByteDance's context database for AI agents. File-system paradigm unifies memory, resources, and skills."
+          },
+          {
+            "headline": "langchain-ai/deepagents",
+            "url": "https://github.com/langchain-ai/deepagents",
+            "note": "14K stars — agent harness built with LangChain and LangGraph. Planning tool, filesystem backend, subagent spawning."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Test Superpowers for TDD enforcement on your next Claude Code project",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Run /superpowers:brainstorm first — forces requirement clarification before ANY code. Track test coverage jump from 0-30% to 85-95%."
+          },
+          {
+            "headline": "Evaluate NemoClaw for secure enterprise agent deployment",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+            "note": "Test policy enforcement, network guardrails, and privacy routing for internal OpenClaw deployments requiring compliance."
+          },
+          {
+            "headline": "Add secrets scanning to your AI-assisted development workflow",
+            "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping",
+            "note": "With 29M secrets leaked in 2025, add mandatory scanning (GitGuardian, TruffleHog) to any AI coding pipeline before git push."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "NVIDIA NemoClaw enterprise security stack",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+            "note": "Policy enforcement + network guardrails + privacy routing. Designed for secure internal deployment. Becoming the standard for enterprise agent governance."
+          },
+          {
+            "headline": "Claude Code dominates 2026 rankings",
+            "url": "https://www.nxcode.io/resources/news/best-ai-for-coding-2026-tools-ranked",
+            "note": "Claude Code ranked #1 in comprehensive 2026 analysis. 5x the 'most loved' rating of Cursor. Clear preference consolidation around methodology-first workflows."
+          },
+          {
+            "headline": "OpenClaw China adoption creating new market dynamics",
+            "url": "https://www.reuters.com/business/media-telecom/baidu-joins-chinas-openclaw-frenzy-with-new-ai-agents-2026-03-17/",
+            "note": "Baidu's embrace of OpenClaw signals potential for different feature requirements and governance models in Chinese market."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Benchmark Superpowers TDD workflow vs current development",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Run identical feature through Superpowers 7-phase workflow vs ad-hoc coding. Track: test coverage, bug density, time to first working version."
+          },
+          {
+            "headline": "Evaluate NemoClaw for secure OpenClaw deployment at work",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+            "note": "Request access to NemoClaw. Test policy enforcement, network guardrails, and privacy routing for internal compliance requirements."
+          },
+          {
+            "headline": "Add mandatory secrets scan to Daily-AI CI pipeline",
+            "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping",
+            "note": "With 29M secrets leaked, add TruffleHog/GitGuardian scan to Daily-AI publish pipeline. Fail build if any API keys detected."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Test Superpowers on one Daily-AI related coding task — enforce TDD and measure test coverage. 2) Request NemoClaw access for enterprise deployment evaluation. 3) Add secrets scanning to CI pipeline to prevent accidental key leakage.",
+    "sources": [
+      {
+        "name": "NYT: China Is Embracing OpenClaw",
+        "url": "https://www.nytimes.com/2026/03/17/business/china-ai-agent.html"
+      },
+      {
+        "name": "Reuters: Baidu joins OpenClaw frenzy",
+        "url": "https://www.reuters.com/business/media-telecom/baidu-joins-chinas-openclaw-frenzy-with-new-ai-agents-2026-03-17/"
+      },
+      {
+        "name": "NVIDIA News: NemoClaw Announcement",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw"
+      },
+      {
+        "name": "NVIDIA Blog: GTC 2026",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+      },
+      {
+        "name": "TechRadar: 29M Secrets Leaked",
+        "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping"
+      },
+      {
+        "name": "KDnuggets: OpenClaw Explained",
+        "url": "https://www.kdnuggets.com/openclaw-explained-the-free-ai-agent-tool-going-viral-already-in-2026"
+      }
+    ]
+  },
+  {
     "date": "2026-03-19",
     "title": "Daily AI Update — Superpowers Hits 94K, NVIDIA Unveils NemoClaw, and Enterprise Agent Security Takes Center Stage",
     "summary": "Today's signal is enterprise-ready agentic AI going mainstream: Superpowers rockets past 94K stars as the TDD enforcement framework solidifies its position as the definitive standard for quality-conscious AI development. NVIDIA's GTC 2026 keynote delivered major validation — Jensen Huang called OpenClaw 'the most popular open source project in the history of humanity' and unveiled NemoClaw, an enterprise-optimized version with security and privacy controls. Meanwhile, 'The Agency' repository hit 10K stars in just 7 days, and GitHub faces a record 29 million secrets leaked in 2025 — with AI-generated code contributing to the sprawl. Security is no longer optional.",
