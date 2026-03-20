@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-03-20",
-    "title": "Daily AI Update — Superpowers Surges Past 96K, OpenClaw China Adoption Accelerates, and Enterprise Agent Governance Matures",
-    "summary": "Today's signal is geographic diversification of agentic AI: Superpowers rockets past 96K stars as the TDD enforcement framework becomes the global standard for quality-conscious AI development, while China's tech giants — Baidu, Alibaba, and Tencent — rush to adopt OpenClaw amid government curiosity about the technology. NVIDIA's GTC momentum continues with enterprise deployments scaling, and the 29M GitHub secrets leak story is prompting organizations to add mandatory security scanning to AI-assisted workflows. The net effect: agent governance is becoming a board-level discussion as the technology crosses geographic and enterprise boundaries.",
+    "title": "Daily AI Update — Superpowers Cracks 100K Stars, Pentagon Dumps Anthropic, and NVIDIA Goes to Space",
+    "summary": "Today's signal is a watershed moment: Superpowers rockets past 99,900 stars — adding nearly 3,500 today alone — as the TDD enforcement framework becomes the first AI coding tool to hit six figures, cementing methodology-first development as the enterprise standard. Meanwhile, the Pentagon has dumped Anthropic's Claude in favor of OpenAI and Grok, triggering a legal challenge from Anthropic over its 'supply-chain risk' designation. NVIDIA's GTC momentum continues — Jensen announced Vera Rubin AI data centers going to space, while calling OpenClaw 'the most popular open source project in the history of humanity.' The net effect: agentic AI is now a geopolitical and enterprise governance priority.",
     "tags": [
       "us-labs",
       "china",
@@ -14,16 +14,16 @@
     ],
     "stats": [
       {
-        "value": "96K+ stars",
-        "text": "Superpowers hits 96,400+ stars — adding ~2,100 in 24h — the TDD enforcement framework now adopted by enterprise teams across US, Europe, and Asia as the methodology-first standard."
+        "value": "99.9K+ stars",
+        "text": "Superpowers hits 99,932 stars — adding ~3,494 in 24h — the first AI coding tool to crack 100K stars. The TDD enforcement framework is now the definitive standard for enterprise AI development."
       },
       {
-        "value": "China adoption surges",
-        "text": "Baidu, Alibaba, and Tencent racing to deploy OpenClaw — NYT reports 'China Is Embracing OpenClaw' while government officials assess national security implications."
+        "value": "Pentagon drops Claude",
+        "text": "Pentagon dumps Anthropic, fast-tracks OpenAI and Grok — Hegseth wanted Claude out, citing 'supply-chain risk.' Anthropic is fighting back with legal challenge."
       },
       {
-        "value": "Enterprise governance scales",
-        "text": "NVIDIA NemoClaw seeing rapid enterprise uptake — policy enforcement and privacy routing becoming standard requirements for production agent deployments."
+        "value": "NVIDIA goes to space",
+        "text": "Jensen announced Vera Rubin AI data centers designed for orbit — extending accelerated computing from Earth to space. Feynman architecture coming with Rosa CPU."
       }
     ],
     "sections": [
@@ -31,19 +31,19 @@
         "name": "Stats Grid",
         "items": [
           {
-            "headline": "Superpowers hits 96.4K stars, TDD methodology goes global",
+            "headline": "Superpowers cracks 100K stars — first AI coding tool to six figures",
             "url": "https://github.com/obra/superpowers",
-            "note": "Jesse Vincent's framework now adding ~2,100 stars/day. The 7-phase workflow (Brainstorm → Spec → Plan → TDD → Subagent → Review → Finalize) is being adopted by enterprise teams globally. Included in Anthropic marketplace since January 2026."
+            "note": "Jesse Vincent's framework now adding ~3,494 stars/day. The 7-phase workflow (Brainstorm → Spec → Plan → TDD → Subagent → Review → Finalize) is now the gold standard. 7,975 forks and climbing."
           },
           {
-            "headline": "China tech giants embrace OpenClaw",
-            "url": "https://www.nytimes.com/2026/03/17/business/china-ai-agent.html",
-            "note": "NYT reports engineers at Baidu, Alibaba, and Tencent racing to install OpenClaw. Government officials curious about the technology. OpenClaw adoption in China described as 'frenzy' by Reuters."
+            "headline": "Pentagon dumps Anthropic Claude — fast-tracks OpenAI and Grok",
+            "url": "https://cybernews.com/ai-news/pentagon-anthropic-openai-grok/",
+            "note": "Defense Secretary Pete Hegseth pushed to remove Claude from Pentagon contracts. Anthropic is preparing legal challenge against the 'supply-chain risk' label that could damage future government business."
           },
           {
-            "headline": "Enterprise agent governance matures with NemoClaw",
-            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
-            "note": "NVIDIA's enterprise-optimized OpenClaw seeing rapid deployment across financial services, healthcare, and government sectors. Policy enforcement and privacy routing now baseline requirements."
+            "headline": "NVIDIA Vera Rubin going to space — AI data centers in orbit",
+            "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+            "note": "Jensen announced NVIDIA Space-1 Vera Rubin systems designed to bring AI data centers into orbit. Extends accelerated computing from Earth to space. Next: Feynman architecture with Rosa CPU."
           }
         ]
       },
@@ -51,9 +51,9 @@
         "name": "Breaking AI News",
         "items": [
           {
-            "headline": "Superpowers trajectory accelerates past 96K stars",
+            "headline": "Superpowers becomes first AI coding tool to hit 100K stars",
             "url": "https://github.com/obra/superpowers",
-            "note": "The TDD enforcement framework continues its runaway growth. Adding ~2,100 stars/day. Enterprise adoption accelerating as teams realize AI-generated code needs methodology enforcement.",
+            "note": "The TDD enforcement framework adds ~3,494 stars today alone. Enterprise adoption accelerating globally as teams demand methodology enforcement for AI-generated code.",
             "badges": [
               "US",
               "Tools",
@@ -61,43 +61,43 @@
             ]
           },
           {
-            "headline": "NYT: China Is Embracing OpenClaw",
-            "url": "https://www.nytimes.com/2026/03/17/business/china-ai-agent.html",
-            "note": "New York Times reports on growing domestic interest in OpenClaw — engineers sought help from colleagues to install the open-source AI assistant. Government is wary but curious.",
+            "headline": "Pentagon dumps Claude, fast-tracks OpenAI and Grok",
+            "url": "https://cybernews.com/ai-news/pentagon-anthropic-openai-grok/",
+            "note": "Hegseth wanted Anthropic out; military users say it's not so easy to replace. Anthropic fighting back with legal challenge against supply-chain risk designation.",
             "badges": [
-              "China",
-              "Open Source",
+              "US",
+              "Policy",
+              "Defense"
+            ]
+          },
+          {
+            "headline": "NVIDIA announces Vera Rubin for orbital AI data centers",
+            "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+            "note": "Jensen Huang announced NVIDIA Space-1 Vera Rubin systems designed to bring AI data centers into orbit. Extends accelerated computing from Earth to space.",
+            "badges": [
+              "US",
+              "Hardware",
+              "Space"
+            ]
+          },
+          {
+            "headline": "Jensen: Every company needs an OpenClaw strategy",
+            "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+            "note": "At GTC, Huang called OpenClaw 'the most popular open source project in the history of humanity.' Announced OpenShell runtime and NemoClaw for secure enterprise deployment.",
+            "badges": [
+              "US",
+              "Platform",
               "OpenClaw"
             ]
           },
           {
-            "headline": "Baidu joins China's OpenClaw frenzy",
-            "url": "https://www.reuters.com/business/media-telecom/baidu-joins-chinas-openclaw-frenzy-with-new-ai-agents-2026-03-17/",
-            "note": "Reuters: Baidu announces new AI agents built on OpenClaw framework. Part of broader domestic push for autonomous AI assistants in enterprise workflows.",
-            "badges": [
-              "China",
-              "Platform",
-              "Baidu"
-            ]
-          },
-          {
-            "headline": "NVIDIA GTC momentum continues into post-keynote period",
-            "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
-            "note": "Enterprise deployments scaling across sectors. Jensen's OpenClaw endorsement driving board-level discussions about agent strategy. Vera Rubin platform gaining traction for agentic AI workloads.",
+            "headline": "Anthropic revenue on track to beat OpenAI by year-end",
+            "url": "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/",
+            "note": "Coding agent revenue doubled to $2.5B in 5 months. Epoch and Semianalysis estimate Anthropic could surpass OpenAI revenue by end of 2026 despite Pentagon dispute.",
             "badges": [
               "US",
-              "Hardware",
-              "NVIDIA"
-            ]
-          },
-          {
-            "headline": "GitHub secrets scanning becomes mandatory enterprise practice",
-            "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping",
-            "note": "With 29M secrets leaked in 2025, organizations adding mandatory scanning (GitGuardian, TruffleHog) to AI coding pipelines. Security gates now non-negotiable.",
-            "badges": [
-              "US",
-              "Security",
-              "GitHub"
+              "Business",
+              "Anthropic"
             ]
           }
         ]
@@ -108,17 +108,17 @@
           {
             "headline": "obra/superpowers",
             "url": "https://github.com/obra/superpowers",
-            "note": "96.4K stars — methodology-first framework enforcing TDD. Works across Claude Code, Cursor, Codex, OpenCode, Gemini CLI, Qwen Code, Goose CLI, Auggie."
+            "note": "99.9K stars — methodology-first framework enforcing TDD. Works across Claude Code, Cursor, Codex, OpenCode, Gemini CLI, Qwen Code, Goose CLI, Auggie. First AI coding tool to 100K."
           },
           {
-            "headline": "The Agency",
-            "url": "https://github.com/TheAgencyAI/TheAgency",
-            "note": "10K+ stars in 7 days — one of fastest-rising AI repos. Discussion around AI tooling replacing traditional development workflows continues heating up."
+            "headline": "langchain-ai/open-swe",
+            "url": "https://github.com/langchain-ai/open-swe",
+            "note": "7.2K stars — open-source asynchronous coding agent. 965 stars today. Strong alternative for teams wanting LangChain-native agent workflows."
           },
           {
-            "headline": "666ghj/MiroFish",
-            "url": "https://github.com/666ghj/MiroFish",
-            "note": "32K+ stars — swarm intelligence engine. Maintains strong momentum for non-traditional prediction architectures."
+            "headline": "gsd-build/get-shit-done",
+            "url": "https://github.com/gsd-build/get-shit-done",
+            "note": "36.4K stars — meta-prompting and context engineering system for Claude Code. 1,491 stars today. TÂCHES framework gaining traction."
           }
         ]
       },
@@ -128,22 +128,22 @@
           {
             "headline": "obra/superpowers",
             "url": "https://github.com/obra/superpowers",
-            "note": "96.4K stars, #1 trending — TDD methodology enforcement continues runaway growth. 7,800+ forks. Production case studies show zero post-deployment issues."
+            "note": "99.9K stars, #3 trending today — TDD methodology enforcement hits milestone. 7,975 forks. Production case studies show zero post-deployment issues."
           },
           {
-            "headline": "thedotmack/claude-mem",
-            "url": "https://github.com/thedotmack/claude-mem",
-            "note": "38K stars — Claude Code memory plugin gaining strong adoption. Essential for long-running research workflows."
+            "headline": "jarrodwatts/claude-hud",
+            "url": "https://github.com/jarrodwatts/claude-hud",
+            "note": "8.8K stars — Claude Code plugin showing context usage, active tools, running agents, and todo progress. 1,851 stars today."
           },
           {
-            "headline": "lightpanda-io/browser",
-            "url": "https://github.com/lightpanda-io/browser",
-            "note": "22K stars — AI-optimized headless browser. Zig architecture targets performance-critical automation."
+            "headline": "unslothai/unsloth",
+            "url": "https://github.com/unslothai/unsloth",
+            "note": "56.9K stars — unified web UI for training and running open models locally. 1,262 stars today."
           },
           {
-            "headline": "abhigyanpatwari/GitNexus",
-            "url": "https://github.com/abhigyanpatwari/GitNexus",
-            "note": "16.5K stars — client-side knowledge graph for code. Graph RAG Agent runs entirely in browser."
+            "headline": "shareAI-lab/learn-claude-code",
+            "url": "https://github.com/shareAI-lab/learn-claude-code",
+            "note": "34K stars — Claude Code-like agent harness built from scratch. 1,448 stars today."
           },
           {
             "headline": "volcengine/OpenViking",
@@ -161,7 +161,7 @@
         "name": "Run It Locally",
         "items": [
           {
-            "headline": "Test Superpowers for TDD enforcement on your next Claude Code project",
+            "headline": "Test Superpowers for TDD enforcement — now at 100K stars",
             "url": "https://github.com/obra/superpowers",
             "note": "Run /superpowers:brainstorm first — forces requirement clarification before ANY code. Track test coverage jump from 0-30% to 85-95%."
           },
@@ -191,9 +191,9 @@
             "note": "Claude Code ranked #1 in comprehensive 2026 analysis. 5x the 'most loved' rating of Cursor. Clear preference consolidation around methodology-first workflows."
           },
           {
-            "headline": "OpenClaw China adoption creating new market dynamics",
-            "url": "https://www.reuters.com/business/media-telecom/baidu-joins-chinas-openclaw-frenzy-with-new-ai-agents-2026-03-17/",
-            "note": "Baidu's embrace of OpenClaw signals potential for different feature requirements and governance models in Chinese market."
+            "headline": "OpenAI Responses API for secure agent runtime",
+            "url": "https://openai.com/index/equip-responses-api-computer-environment",
+            "note": "Hosted runtime for tool execution with file state management. Reference for sandboxed agent deployment."
           }
         ]
       },
@@ -221,28 +221,28 @@
     "implementation": "1) Test Superpowers on one Daily-AI related coding task — enforce TDD and measure test coverage. 2) Request NemoClaw access for enterprise deployment evaluation. 3) Add secrets scanning to CI pipeline to prevent accidental key leakage.",
     "sources": [
       {
-        "name": "NYT: China Is Embracing OpenClaw",
-        "url": "https://www.nytimes.com/2026/03/17/business/china-ai-agent.html"
+        "name": "NVIDIA Blog: GTC 2026 Live Updates",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
       },
       {
-        "name": "Reuters: Baidu joins OpenClaw frenzy",
-        "url": "https://www.reuters.com/business/media-telecom/baidu-joins-chinas-openclaw-frenzy-with-new-ai-agents-2026-03-17/"
+        "name": "CyberNews: Pentagon dumps Anthropic",
+        "url": "https://cybernews.com/ai-news/pentagon-anthropic-openai-grok/"
       },
       {
         "name": "NVIDIA News: NemoClaw Announcement",
         "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw"
       },
       {
-        "name": "NVIDIA Blog: GTC 2026",
-        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+        "name": "NVIDIA News: Space Computing",
+        "url": "https://nvidianews.nvidia.com/news/space-computing"
       },
       {
-        "name": "TechRadar: 29M Secrets Leaked",
-        "url": "https://www.techradar.com/pro/security/over-29-million-secrets-were-leaked-on-github-in-2025-and-ai-really-isnt-helping"
+        "name": "TIME: Anthropic Disruptive Company",
+        "url": "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/"
       },
       {
-        "name": "KDnuggets: OpenClaw Explained",
-        "url": "https://www.kdnuggets.com/openclaw-explained-the-free-ai-agent-tool-going-viral-already-in-2026"
+        "name": "GitHub Trending (March 20, 2026)",
+        "url": "https://github.com/trending?since=daily"
       }
     ]
   },
