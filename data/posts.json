@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-03-21",
+    "title": "Daily AI Update — OpenClaw Hits 300K Stars, Agentic Execution Goes Mainstream, and Local AI Reshapes Privacy",
+    "summary": "Today's signal is ecosystem maturation: OpenClaw surges past 302,000 stars, cementing its position as the fastest-growing open-source project in GitHub history as the agentic execution paradigm shifts from experimental to essential. The broader shift is clear — attention has moved from pure model capability to practical application areas: agentic execution, workflow orchestration, and multimodal generation. Superpowers continues its momentum past 100K stars, while local AI tools like Ollama enable fully offline deployments. The net effect: AI is no longer confined to chat windows — it's moving into messaging channels, automation pipelines, and local devices.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "302K+ stars",
+        "text": "OpenClaw hits 302K stars — now the fastest-growing open-source project in GitHub history. Surge from 9K to 60K in days, then to 300K+. Agentic AI moving from experimental demos to production deployments."
+      },
+      {
+        "value": "100K+ stars",
+        "text": "Superpowers passes 100K stars — first AI coding tool to hit this milestone. TDD enforcement framework now definitive standard for enterprise-quality AI development."
+      },
+      {
+        "value": "4.3M+ repos",
+        "text": "GitHub's Octoverse 2025 report: 4.3M AI-related repositories — 178% YoY growth in LLM projects. Attention shifting to agentic execution and workflow orchestration."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "OpenClaw surges to 302K+ stars — fastest growth in GitHub history",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "Peter Steinberger's project evolved from Clawdbot → Moltbot → OpenClaw. Now runs as local gateway connecting AI to 50+ integrations (WhatsApp, Telegram, Slack, Discord, Signal, iMessage). Can write its own new skills — self-extending capabilities."
+          },
+          {
+            "headline": "Superpowers breaks 100K stars — TDD methodology goes enterprise",
+            "url": "https://github.com/obra/superpowers",
+            "note": "First AI coding tool to hit six figures. The 7-phase workflow (Brainstorm → Spec → Plan → TDD → Subagent → Review → Finalize) now being adopted by enterprise teams demanding methodology-first AI code."
+          },
+          {
+            "headline": "GitHub AI repos explode: 4.3M projects, 178% YoY growth",
+            "url": "https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026",
+            "note": "Octoverse 2025 data shows massive expansion. Focus shifting from model capability to practical areas: agentic execution, workflow orchestration, multimodal generation."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "OpenClaw becomes fastest-growing open-source project in GitHub history",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "Surge from 9K to 60K in days, now past 302K. Runs as local gateway connecting AI models to 50+ integrations. Data never leaves your machine — self-hosted, always-on architecture.",
+            "badges": [
+              "US",
+              "Platform",
+              "OpenClaw"
+            ]
+          },
+          {
+            "headline": "Peter Steinberger joins OpenAI, project transitions to foundation",
+            "url": "https://www.nocobase.com/en/blog/best-open-source-ai-projects-github-2026",
+            "note": "On Feb 14, 2026, OpenClaw creator announced joining OpenAI. Project transitioning to open-source foundation for community governance. Security concerns raised about broad permissions required.",
+            "badges": [
+              "US",
+              "Business",
+              "OpenClaw"
+            ]
+          },
+          {
+            "headline": "Agentic execution dominates 2026 open-source AI trends",
+            "url": "https://medium.com/@nocobase/top-20-ai-projects-on-github-to-watch-in-2026-not-just-openclaw-909b3bae62f6",
+            "note": "Analysis shows four major directions: agentic execution, workflow orchestration, data/context management, multimodal generation. Traditional model capability focus taking backseat to practical deployment.",
+            "badges": [
+              "US",
+              "Trends",
+              "Analysis"
+            ]
+          },
+          {
+            "headline": "n8n adds native AI capabilities to workflow automation",
+            "url": "https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026",
+            "note": "n8n visual no-code platform now includes LangChain integration for AI agent automations. 400+ integrations, self-hosted option for data governance. Bridges business automation and AI workflows.",
+            "badges": [
+              "US",
+              "Automation",
+              "Workflow"
+            ]
+          },
+          {
+            "headline": "Ollama drives local AI movement for privacy-critical deployments",
+            "url": "https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026",
+            "note": "Go-based lightweight framework runs LLMs locally (Llama, Mistral, Gemma, DeepSeek). Desktop apps for macOS/Windows. No data sent externally — fully offline capable. Pairs with Open WebUI for self-hosted alternative.",
+            "badges": [
+              "US",
+              "Local AI",
+              "Privacy"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "openclaw/openclaw",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "302K+ stars — self-hosted AI gateway connecting to 50+ channels. Can write its own new skills. Always-on architecture for continuous operation across messaging platforms."
+          },
+          {
+            "headline": "Significant-Gravitas/AutoGPT",
+            "url": "https://github.com/Significant-Gravitas/AutoGPT",
+            "note": "182K stars — evolving from autonomous agent experiment to broader agent platform. Supports persistent operation, long-running tasks, marketplace modules. Focus on platform/enterprise builders."
+          },
+          {
+            "headline": "google-gemini/gemini-cli",
+            "url": "https://github.com/google-gemini/gemini-cli",
+            "note": "97.2K stars — Google's CLI agent bringing Gemini into terminal. Reason-and-act approach, works with local project context, supports MCP servers for complex tasks."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "openclaw/openclaw",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "302K+ stars, #1 trending — fastest growth in GitHub history. Self-extending AI gateway with 50+ integrations."
+          },
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "100K+ stars — first AI coding tool to hit six figures. TDD enforcement framework defines methodology-first development."
+          },
+          {
+            "headline": "Significant-Gravitas/AutoGPT",
+            "url": "https://github.com/Significant-Gravitas/AutoGPT",
+            "note": "182K stars — agent platform for building, deploying, and managing persistent autonomous agents."
+          },
+          {
+            "headline": "google-gemini/gemini-cli",
+            "url": "https://github.com/google-gemini/gemini-cli",
+            "note": "97.2K stars — CLI-native agent for terminal workflows and local project context."
+          },
+          {
+            "headline": "ollama/ollama",
+            "url": "https://github.com/ollama/ollama",
+            "note": "Massive growth — local LLM deployment backbone. Runs Llama, Mistral, Gemma, DeepSeek locally with full offline capability."
+          },
+          {
+            "headline": "n8n-io/n8n",
+            "url": "https://github.com/n8n-io/n8n",
+            "note": "Workflow automation with native AI. 400+ integrations, LangChain-powered agent workflows, self-hosted option."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Set up OpenClaw as personal AI gateway on your server",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "Deploy local gateway with Telegram/Discord/Signal integrations. AI responds through channels you already use. Test skill-writing capability for custom extensions."
+          },
+          {
+            "headline": "Run Ollama with DeepSeek for fully offline coding assistant",
+            "url": "https://github.com/ollama/ollama",
+            "note": "Deploy local LLM (DeepSeek, Llama) for privacy-sensitive coding tasks. No data leaves your machine. Pairs with Open WebUI for chat interface."
+          },
+          {
+            "headline": "Build n8n AI workflow for automated content pipeline",
+            "url": "https://github.com/n8n-io/n8n",
+            "note": "Combine LangChain agents with 400+ integrations. Automate content research, summarization, and publishing. Self-host for data governance."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "OpenClaw skill marketplace expanding rapidly",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "Self-extending AI can write new skills. Marketplace growing but security vetting still maturing — review permissions before installing community skills."
+          },
+          {
+            "headline": "Claude Code + Superpowers for enterprise-grade TDD",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Combine methodology enforcement with Claude Code. Test coverage 85-95% before any code executes. Now in Anthropic marketplace."
+          },
+          {
+            "headline": "Gemini CLI for terminal-native agent workflows",
+            "url": "https://github.com/google-gemini/gemini-cli",
+            "note": "Google's CLI agent integrates with local project context. MCP server support for extended capabilities. Strong for continuous development tasks."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Deploy OpenClaw for Daily-AI research automation",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "Set up OpenClaw with web search + GitHub API skills. Automate daily research gathering, summarize findings, queue for editorial review — all via messaging."
+          },
+          {
+            "headline": "Benchmark Ollama DeepSeek vs Claude API for cost-sensitive tasks",
+            "url": "https://github.com/ollama/ollama",
+            "note": "Run identical coding tasks on local DeepSeek vs Claude API. Track quality, latency, and cost savings for high-volume internal workflows."
+          },
+          {
+            "headline": "Build n8n pipeline for AI-assisted content workflow",
+            "url": "https://github.com/n8n-io/n8n",
+            "note": "Create automated pipeline: web scraper → summarization → formatting → CMS publish. Self-hosted for data control."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Deploy OpenClaw locally with Telegram/Signal integration for Daily-AI research automation. 2) Benchmark Ollama DeepSeek vs Claude API costs for internal tasks. 3) Create n8n workflow for automated content gathering and formatting.",
+    "sources": [
+      {
+        "name": "Medium: Top 20 AI Projects on GitHub 2026",
+        "url": "https://medium.com/@nocobase/top-20-ai-projects-on-github-to-watch-in-2026-not-just-openclaw-909b3bae62f6"
+      },
+      {
+        "name": "ByteByteGo: Top AI GitHub Repositories 2026",
+        "url": "https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026"
+      },
+      {
+        "name": "GitHub: OpenClaw Repository",
+        "url": "https://github.com/openclaw/openclaw"
+      },
+      {
+        "name": "GitHub: Superpowers Repository",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "name": "GitHub: Ollama Repository",
+        "url": "https://github.com/ollama/ollama"
+      },
+      {
+        "name": "GitHub: n8n Repository",
+        "url": "https://github.com/n8n-io/n8n"
+      }
+    ]
+  },
+  {
     "date": "2026-03-20",
     "title": "Daily AI Update — Superpowers Cracks 100K Stars, Pentagon Dumps Anthropic, and NVIDIA Goes to Space",
     "summary": "Today's signal is a watershed moment: Superpowers rockets past 99,900 stars — adding nearly 3,500 today alone — as the TDD enforcement framework becomes the first AI coding tool to hit six figures, cementing methodology-first development as the enterprise standard. Meanwhile, the Pentagon has dumped Anthropic's Claude in favor of OpenAI and Grok, triggering a legal challenge from Anthropic over its 'supply-chain risk' designation. NVIDIA's GTC momentum continues — Jensen announced Vera Rubin AI data centers going to space, while calling OpenClaw 'the most popular open source project in the history of humanity.' The net effect: agentic AI is now a geopolitical and enterprise governance priority.",
