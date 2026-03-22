@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-03-22",
+    "title": "Daily AI Update — Superpowers Defies Gravity, NVIDIA Sees $1T in Orders, and Agentic AI Hits Healthcare",
+    "summary": "Today's signal is institutional validation at scale: Superpowers continues its unprecedented growth trajectory, now well past 100K stars as the TDD enforcement framework becomes non-negotiable for enterprise AI development. NVIDIA's GTC 2026 revealed $1 trillion in Blackwell and Vera Rubin orders through 2027 — the clearest sign yet that agentic AI infrastructure is the defining build cycle of this decade. Roche deployed 3,500+ Blackwell GPUs for drug discovery, while OpenClaw's Weibo launch signals mainstream Chinese market entry. The net effect: AI is no longer an experimentation budget line item — it's becoming core infrastructure investment.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "100K+ stars",
+        "text": "Superpowers rockets past 100K stars — first AI coding tool to achieve this milestone. Adding thousands daily as enterprise teams demand TDD enforcement for AI-generated code."
+      },
+      {
+        "value": "$1T orders",
+        "text": "NVIDIA sees $1 trillion in Blackwell and Vera Rubin orders through 2027 — Jensen Huang calls agentic AI the \"most important build cycle of this decade.\""
+      },
+      {
+        "value": "3,500+ GPUs",
+        "text": "Roche deploys 3,500+ NVIDIA Blackwell GPUs across US and Europe — major pharma validation of agentic AI for drug discovery and diagnostics."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "Superpowers passes 100K stars — TDD methodology becomes enterprise standard",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Jesse Vincent's framework adding thousands of stars daily. The 7-phase workflow (Brainstorm → Spec → Plan → TDD → Subagent → Review → Finalize) is now the gold standard for quality-conscious AI development."
+          },
+          {
+            "headline": "NVIDIA sees $1T in orders — Blackwell and Vera Rubin driving infrastructure boom",
+            "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+            "note": "Jensen announced $1 trillion in purchase orders through 2027. Agentic AI driving demand across every industry. Vera Rubin platform comprises 7 chips, 5 rack-scale systems, 1 supercomputer."
+          },
+          {
+            "headline": "Roche deploys 3,500+ Blackwell GPUs for pharmaceutical AI",
+            "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+            "note": "Major pharma validation: Roche's hybrid cloud + on-premises deployment spans US and Europe. Agentic AI now proving real ROI in drug discovery and diagnostics."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "Superpowers trajectory accelerates past 100K stars",
+            "url": "https://github.com/obra/superpowers",
+            "note": "First AI coding tool to hit six figures. Enterprise adoption accelerating as teams realize AI-generated code needs methodology enforcement.",
+            "badges": [
+              "US",
+              "Tools",
+              "GitHub"
+            ]
+          },
+          {
+            "headline": "NVIDIA announces $1T Blackwell/Vera Rubin orders through 2027",
+            "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+            "note": "Jensen: \"I believe computing demand has increased by 1 million times over the last few years.\" Agentic AI is the central theme driving this infrastructure build-out.",
+            "badges": [
+              "US",
+              "Hardware",
+              "NVIDIA"
+            ]
+          },
+          {
+            "headline": "OpenClaw launches official Weibo account for Chinese market",
+            "url": "https://xix.ai/ainews/openclaw-launches-social-media-accounts-attracting-major-ai-model-firms.html",
+            "note": "March 3 launch marks mainstream Chinese market entry. Verification details confirm official project channel. Model firms increasingly integrating with OpenClaw ecosystem.",
+            "badges": [
+              "China",
+              "Open Source",
+              "OpenClaw"
+            ]
+          },
+          {
+            "headline": "NVIDIA unveils Vera Rubin platform for agentic AI",
+            "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+            "note": "Full-stack computing platform: Vera CPU, BlueField-4 STX storage, 7 chips, 5 rack-scale systems. Next architecture: Feynman with Rosa CPU (named for Rosalind Franklin).",
+            "badges": [
+              "US",
+              "Hardware",
+              "Platform"
+            ]
+          },
+          {
+            "headline": "Agentic AI takes center stage at GTC 2026 healthcare track",
+            "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+            "note": "Roche's 3,500+ Blackwell GPU deployment marks pharma turning point. Agentic AI now proving measurable ROI in drug discovery and next-gen diagnostics.",
+            "badges": [
+              "US",
+              "Healthcare",
+              "Enterprise"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "100K+ stars — methodology-first framework enforcing TDD. Works across Claude Code, Cursor, Codex, OpenCode, Gemini CLI, Qwen Code, Goose CLI, Auggie."
+          },
+          {
+            "headline": "openclaw/openclaw",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "302K+ stars — self-hosted AI gateway with 50+ integrations. Weibo launch signals Chinese market expansion. Can write its own new skills."
+          },
+          {
+            "headline": "Significant-Gravitas/AutoGPT",
+            "url": "https://github.com/Significant-Gravitas/AutoGPT",
+            "note": "182K stars — evolving from autonomous agent experiment to broader agent platform. Supports persistent operation, long-running tasks, marketplace modules."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "note": "100K+ stars, #1 trending — TDD methodology enforcement continues runaway growth. First AI coding tool to hit six figures."
+          },
+          {
+            "headline": "openclaw/openclaw",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "302K+ stars — fastest growth in GitHub history. Self-extending AI gateway with 50+ integrations."
+          },
+          {
+            "headline": "Significant-Gravitas/AutoGPT",
+            "url": "https://github.com/Significant-Gravitas/AutoGPT",
+            "note": "182K stars — agent platform for building, deploying, and managing persistent autonomous agents."
+          },
+          {
+            "headline": "google-gemini/gemini-cli",
+            "url": "https://github.com/google-gemini/gemini-cli",
+            "note": "97K+ stars — CLI-native agent for terminal workflows. MCP server support for extended capabilities."
+          },
+          {
+            "headline": "ollama/ollama",
+            "url": "https://github.com/ollama/ollama",
+            "note": "Massive growth — local LLM deployment backbone. Runs Llama, Mistral, Gemma, DeepSeek locally with full offline capability."
+          },
+          {
+            "headline": "n8n-io/n8n",
+            "url": "https://github.com/n8n-io/n8n",
+            "note": "Workflow automation with native AI. 400+ integrations, LangChain-powered agent workflows, self-hosted option."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Deploy OpenClaw as personal AI gateway on your server",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "Set up local gateway with Telegram/Discord/Signal integrations. AI responds through channels you already use. Test skill-writing for custom extensions."
+          },
+          {
+            "headline": "Run Ollama with DeepSeek for fully offline coding assistant",
+            "url": "https://github.com/ollama/ollama",
+            "note": "Deploy local LLM (DeepSeek, Llama) for privacy-sensitive coding. No data leaves your machine. Pairs with Open WebUI for chat interface."
+          },
+          {
+            "headline": "Build n8n AI workflow for automated content pipeline",
+            "url": "https://github.com/n8n-io/n8n",
+            "note": "Combine LangChain agents with 400+ integrations. Automate content research, summarization, and publishing. Self-host for data governance."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "NVIDIA NemoClaw enterprise security stack",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+            "note": "Policy enforcement + network guardrails + privacy routing. For secure internal OpenClaw deployments requiring compliance."
+          },
+          {
+            "headline": "Claude Code + Superpowers for enterprise-grade TDD",
+            "url": "https://github.com/obra/superpowers",
+            "note": "Combine methodology enforcement with Claude Code. Test coverage 85-95% before any code executes. Now in Anthropic marketplace."
+          },
+          {
+            "headline": "Google Gemini CLI for terminal-native agent workflows",
+            "url": "https://github.com/google-gemini/gemini-cli",
+            "note": "Google's CLI agent integrates with local project context. MCP server support for extended capabilities. Strong for continuous development tasks."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Deploy OpenClaw for Daily-AI research automation",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "Set up OpenClaw with web search + GitHub API skills. Automate daily research gathering, summarize findings, queue for editorial review — all via messaging."
+          },
+          {
+            "headline": "Benchmark Ollama DeepSeek vs Claude API for cost-sensitive tasks",
+            "url": "https://github.com/ollama/ollama",
+            "note": "Run identical coding tasks on local DeepSeek vs Claude API. Track quality, latency, and cost savings for high-volume internal workflows."
+          },
+          {
+            "headline": "Build n8n pipeline for AI-assisted content workflow",
+            "url": "https://github.com/n8n-io/n8n",
+            "note": "Create automated pipeline: web scraper → summarization → formatting → CMS publish. Self-hosted for data control."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Deploy OpenClaw locally with Telegram/Signal integration for Daily-AI research automation. 2) Benchmark Ollama DeepSeek vs Claude API costs for internal tasks. 3) Create n8n workflow for automated content gathering and formatting.",
+    "sources": [
+      {
+        "name": "NVIDIA Blog: GTC 2026 Live Updates",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+      },
+      {
+        "name": "CNBC: NVIDIA GTC 2026",
+        "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
+      },
+      {
+        "name": "GEN News: Agentic AI in Healthcare",
+        "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/"
+      },
+      {
+        "name": "XIX.ai: OpenClaw Weibo Launch",
+        "url": "https://xix.ai/ainews/openclaw-launches-social-media-accounts-attracting-major-ai-model-firms.html"
+      },
+      {
+        "name": "GitHub: Superpowers",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "name": "GitHub: OpenClaw",
+        "url": "https://github.com/openclaw/openclaw"
+      }
+    ]
+  },
+  {
     "date": "2026-03-21",
     "title": "Daily AI Update — OpenClaw Hits 300K Stars, Agentic Execution Goes Mainstream, and Local AI Reshapes Privacy",
     "summary": "Today's signal is ecosystem maturation: OpenClaw surges past 302,000 stars, cementing its position as the fastest-growing open-source project in GitHub history as the agentic execution paradigm shifts from experimental to essential. The broader shift is clear — attention has moved from pure model capability to practical application areas: agentic execution, workflow orchestration, and multimodal generation. Superpowers continues its momentum past 100K stars, while local AI tools like Ollama enable fully offline deployments. The net effect: AI is no longer confined to chat windows — it's moving into messaging channels, automation pipelines, and local devices.",
