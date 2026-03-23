@@ -1,5 +1,260 @@
 [
   {
+    "date": "2026-03-23",
+    "title": "Daily AI Update — OpenAI Buys Astral, Agent Monitoring Gets Real, and GitHub Keeps Rewarding Workflow Infrastructure",
+    "summary": "Today's signal is workflow consolidation: OpenAI is moving beyond model access into deeper developer-tool ownership by acquiring Astral, while simultaneously publishing a concrete monitoring architecture for internal coding agents. That combination matters because the market is shifting from 'can the model code?' to 'can the whole software loop be governed, verified, and trusted?' NVIDIA's GTC cycle keeps reinforcing the infrastructure side of that story, Google is embedding stronger spreadsheet-native autonomy into Workspace, and open-source momentum remains concentrated in agent workflow tools rather than raw model demos. The net effect: the winner's edge is increasingly operational depth, not just model quality.",
+    "tags": [
+      "us-labs",
+      "china",
+      "open-source",
+      "github",
+      "openclaw",
+      "local-ai",
+      "api"
+    ],
+    "stats": [
+      {
+        "value": "2M weekly users",
+        "text": "OpenAI says Codex now has more than 2 million weekly active users, alongside 3x user growth and 5x usage growth since the start of the year — a strong signal that coding agents are graduating from niche tool to mainstream workflow surface."
+      },
+      {
+        "value": "70.48% success",
+        "text": "Google says Gemini in Sheets reached a 70.48% success rate on SpreadsheetBench, nearing human-expert spreadsheet manipulation and pushing AI deeper into actual analyst workflows rather than chat-only assistance."
+      },
+      {
+        "value": "330K+ stars",
+        "text": "OpenClaw sits above 330K GitHub stars, showing that agent operating systems and orchestration layers still have more open-source pull than most standalone model repos."
+      }
+    ],
+    "sections": [
+      {
+        "name": "Stats Grid",
+        "items": [
+          {
+            "headline": "OpenAI ties coding-agent growth to Astral acquisition",
+            "url": "https://openai.com/index/openai-to-acquire-astral",
+            "note": "OpenAI explicitly says Codex has over 2 million weekly active users, with 3x user growth and 5x usage growth since the start of the year. Buying Astral is strategic, not cosmetic: uv, Ruff, and ty are already embedded in real Python workflows, so this gives OpenAI a tighter grip on the quality and verification layer around AI-assisted development."
+          },
+          {
+            "headline": "Gemini in Sheets nears human-expert spreadsheet performance",
+            "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+            "note": "Google says Gemini in Sheets achieved a 70.48% success rate on SpreadsheetBench. That matters because spreadsheets are still the default operating system for ops, finance, and reporting teams — so better spreadsheet autonomy is a real workflow wedge, not just a benchmark flex."
+          },
+          {
+            "headline": "OpenClaw remains one of the biggest gravity wells in open-source AI",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "At more than 330K stars, OpenClaw continues to validate the idea that users want full agent operating systems with channels, memory, jobs, and integrations — not just another chat wrapper around a model API."
+          }
+        ]
+      },
+      {
+        "name": "Breaking AI News",
+        "items": [
+          {
+            "headline": "OpenAI to acquire Astral and pull Python tooling into Codex",
+            "url": "https://openai.com/index/openai-to-acquire-astral",
+            "note": "This is one of the clearest moves yet toward owning more of the software-development stack. Astral brings three critical Python primitives — uv for environments, Ruff for linting/formatting, and ty for type safety. Why it matters: coding agents get much more useful when they can work natively with the same project hygiene tools developers already trust.",
+            "badges": [
+              "US",
+              "Developer Tools",
+              "OpenAI"
+            ]
+          },
+          {
+            "headline": "OpenAI details how it monitors internal coding agents for misalignment",
+            "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+            "note": "OpenAI says its low-latency monitor uses GPT-5.4 Thinking at maximum reasoning effort, reviews chains of thought and actions, and currently inspects standard internal coding-agent sessions within roughly 30 minutes. Why it matters: this is one of the most concrete public descriptions so far of post-deployment agent oversight in real tool-rich environments.",
+            "badges": [
+              "US",
+              "Safety",
+              "Agents"
+            ]
+          },
+          {
+            "headline": "NVIDIA keeps framing agentic AI as an infrastructure build cycle, not a feature cycle",
+            "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+            "note": "The GTC recap continues to emphasize rack-scale systems, CUDA-X, cloud partners, and industry-wide deployment rather than isolated model launches. Why it matters: the hardware narrative is now firmly about sustained agent workloads, enterprise deployment, and AI-native companies buying long-lived infrastructure.",
+            "badges": [
+              "US",
+              "Infrastructure",
+              "NVIDIA"
+            ]
+          },
+          {
+            "headline": "Google pushes Gemini deeper into spreadsheet-native autonomy",
+            "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+            "note": "Google is positioning Gemini in Sheets as something closer to an operator than an autocomplete layer — able to create, organize, edit, and analyze full spreadsheets from natural language. Why it matters: that is exactly the kind of embedded surface where AI becomes sticky inside business operations.",
+            "badges": [
+              "US",
+              "Workspace",
+              "Google"
+            ]
+          },
+          {
+            "headline": "GitHub momentum still favors agent workflow systems over single-feature AI apps",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "The strongest recurring open-source pull remains concentrated around projects like OpenClaw, n8n, Dify, Langflow, and open coding agents. Why it matters: the market is rewarding orchestration, memory, handoffs, and practical execution — not just raw model access or prompt libraries.",
+            "badges": [
+              "Global",
+              "Open Source",
+              "GitHub"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Open Source AI",
+        "items": [
+          {
+            "headline": "openclaw/openclaw",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "330K+ stars — still the clearest proof that users want a self-hosted AI operator that lives in real channels, runs jobs, calls tools, and can be extended with new skills."
+          },
+          {
+            "headline": "opendatalab/MinerU",
+            "url": "https://github.com/opendatalab/MinerU",
+            "note": "56K+ stars — document-to-markdown/JSON extraction remains a highly practical China-linked open-source angle because every agent stack needs cleaner source material before reasoning can become reliable."
+          },
+          {
+            "headline": "anomalyco/opencode",
+            "url": "https://github.com/anomalyco/opencode",
+            "note": "128K+ stars — open-source coding-agent demand keeps compounding, especially for teams that want terminal-native development without full dependence on a closed hosted IDE."
+          }
+        ]
+      },
+      {
+        "name": "Hot GitHub",
+        "items": [
+          {
+            "headline": "openclaw/openclaw",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "330K+ stars — still the category leader for personal-agent infrastructure across messaging channels and automations."
+          },
+          {
+            "headline": "n8n-io/n8n",
+            "url": "https://github.com/n8n-io/n8n",
+            "note": "180K+ stars — workflow automation plus native AI remains a winning combination because enterprises want visible flows, approvals, and integrations."
+          },
+          {
+            "headline": "langgenius/dify",
+            "url": "https://github.com/langgenius/dify",
+            "note": "134K+ stars — strong momentum for agentic workflow builders that package app logic, retrieval, and deployment in one place."
+          },
+          {
+            "headline": "langflow-ai/langflow",
+            "url": "https://github.com/langflow-ai/langflow",
+            "note": "146K+ stars — visual agent and RAG orchestration continues attracting teams that need rapid iteration before hardening in code."
+          },
+          {
+            "headline": "ggml-org/llama.cpp",
+            "url": "https://github.com/ggml-org/llama.cpp",
+            "note": "99K stars — local inference is still strategically important because every serious AI stack eventually needs a privacy, latency, or cost-controlled fallback."
+          },
+          {
+            "headline": "opendatalab/MinerU",
+            "url": "https://github.com/opendatalab/MinerU",
+            "note": "56K+ stars — practical document parsing remains one of the more underrated building blocks in agent reliability."
+          }
+        ]
+      },
+      {
+        "name": "Run It Locally",
+        "items": [
+          {
+            "headline": "Run llama.cpp as your private fallback model layer",
+            "url": "https://github.com/ggml-org/llama.cpp",
+            "note": "Useful for privacy-sensitive summarization, extraction, or first-pass classification where you want local control, predictable cost, and no API dependency."
+          },
+          {
+            "headline": "Use MinerU to turn PDFs into agent-ready markdown before analysis",
+            "url": "https://github.com/opendatalab/MinerU",
+            "note": "This is immediately relevant for any research pipeline that ingests reports, PDFs, scans, or spec sheets. Better extraction upstream usually beats more prompting downstream."
+          },
+          {
+            "headline": "Self-host OpenClaw for message-driven research and publishing loops",
+            "url": "https://github.com/openclaw/openclaw",
+            "note": "OpenClaw remains a strong local gateway pattern when you want web research, reminders, jobs, and publishing operations accessible from chat instead of a terminal."
+          }
+        ]
+      },
+      {
+        "name": "API Tools",
+        "items": [
+          {
+            "headline": "Codex + Astral toolchain integration",
+            "url": "https://openai.com/index/openai-to-acquire-astral",
+            "note": "If OpenAI executes well here, coding agents get tighter environment management, linting, and type-checking in the same loop — a big deal for trustworthy Python automation."
+          },
+          {
+            "headline": "OpenAI agent monitoring architecture",
+            "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+            "note": "Worth studying as a pattern for any serious internal agent rollout: monitor actions, inspect suspicious traces, and treat post-deployment oversight as part of the product, not an afterthought."
+          },
+          {
+            "headline": "Gemini in Sheets as spreadsheet-native automation surface",
+            "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+            "note": "For ops teams already living in Sheets, this is one of the clearest examples of AI moving into an existing workflow surface rather than asking users to adopt a new one."
+          }
+        ]
+      },
+      {
+        "name": "What We Should Try",
+        "items": [
+          {
+            "headline": "Add a Python hygiene pass to any coding-agent workflow",
+            "url": "https://openai.com/index/openai-to-acquire-astral",
+            "note": "Mirror the Astral logic locally: run linting, type checks, and environment validation automatically before accepting AI-generated edits. This would make Daily-AI-side tooling more dependable if we automate more of the pipeline."
+          },
+          {
+            "headline": "Create an internal monitor for high-risk publish actions",
+            "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+            "note": "Before any automated publish or push step, log the draft, links, and intended file diff, then require a validation pass. Not as sophisticated as OpenAI’s monitor, but the same defense-in-depth principle applies."
+          },
+          {
+            "headline": "Prototype a Sheets-first AI reporting surface for Daily-AI analytics",
+            "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+            "note": "Track story sources, topic mix, region coverage, and publication cadence in a spreadsheet that an AI layer can help maintain and analyze. This could be the fastest way to get editorial telemetry without building a custom dashboard first."
+          }
+        ]
+      }
+    ],
+    "implementation": "1) Add a validator step before publish that checks link freshness, section counts, and duplicate topic drift. 2) Build a lightweight “agent action log” for Daily-AI generation so every automated edit and publish step is reviewable. 3) Test a Sheets-based editorial metrics tracker for topic balance (US vs China, open source vs API, tooling vs policy) to keep coverage broad and intentional.",
+    "sources": [
+      {
+        "name": "OpenAI News RSS",
+        "url": "https://openai.com/news/rss.xml"
+      },
+      {
+        "name": "OpenAI: OpenAI to acquire Astral",
+        "url": "https://openai.com/index/openai-to-acquire-astral"
+      },
+      {
+        "name": "OpenAI: How we monitor internal coding agents for misalignment",
+        "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment"
+      },
+      {
+        "name": "NVIDIA Blog: GTC 2026 Live Updates",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+      },
+      {
+        "name": "Google Blog: Gemini in Sheets state-of-the-art",
+        "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
+      },
+      {
+        "name": "GitHub: OpenClaw",
+        "url": "https://github.com/openclaw/openclaw"
+      },
+      {
+        "name": "GitHub: MinerU",
+        "url": "https://github.com/opendatalab/MinerU"
+      },
+      {
+        "name": "GitHub: llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp"
+      }
+    ]
+  },
+  {
     "date": "2026-03-22",
     "title": "Daily AI Update — Superpowers Defies Gravity, NVIDIA Sees $1T in Orders, and Agentic AI Hits Healthcare",
     "summary": "Today's signal is institutional validation at scale: Superpowers continues its unprecedented growth trajectory, now well past 100K stars as the TDD enforcement framework becomes non-negotiable for enterprise AI development. NVIDIA's GTC 2026 revealed $1 trillion in Blackwell and Vera Rubin orders through 2027 — the clearest sign yet that agentic AI infrastructure is the defining build cycle of this decade. Roche deployed 3,500+ Blackwell GPUs for drug discovery, while OpenClaw's Weibo launch signals mainstream Chinese market entry. The net effect: AI is no longer an experimentation budget line item — it's becoming core infrastructure investment.",
